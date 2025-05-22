@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Topic Skill Matcher</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 2rem;
+    }
+    .card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+    }
+    .result-card {
+      transition: all 0.3s ease;
+    }
+    .result-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+    .spinner-border {
+      display: none;
+    }
+    .no-results {
+      display: none;
+      text-align: center;
+      padding: 2rem;
+    }
+    .domain-topic {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .skill-name {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    .sub-skill {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+    .relevancy-score {
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    .result-card:hover .relevancy-score {
+      transform: scale(1.1);
+    }
+    .sub-skill-row {
+      border: 2px solid #343a40;
+      transition: all 0.3s ease;
+    }
+    .sub-skill-row:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transform: translateY(-2px);
+      border-color: #212529;
+    }
+    .sub-skill-text {
+      font-weight: 500;
+      color: #495057;
+    }
+    .arrow-icon {
+      opacity: 0;
+      transition: all 0.3s ease;
+      transform: translateX(-10px);
+    }
+    .sub-skill-row:hover .arrow-icon {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    .sub-skills-container {
+      max-width: 95% !important;
+    }
+    .category-pill {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .category-core {
+      background-color: #28a745;
+      color: white;
+    }
+    .category-foundational {
+      background-color: #6c757d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Math Topic Skill Matcher</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Enter a middle/high school math topic to find relevant skills:</p>
+            <form id="topic-form">
+              <div class="mb-3">
+                <input type="text" class="form-control form-control-lg" id="topic-input" 
+                  placeholder="e.g., Quadratic equations, Trigonometry, Pythagorean theorem" required>
+              </div>
+              <div class="mb-3">
+                <select class="form-select form-select-lg" id="grade-select">
+                  <option value="" selected disabled>Select a grade...</option>
+                  <option value="Grade 6">Grade 6</option>
+                  <option value="Grade 7">Grade 7</option>
+                  <option value="Grade 8">Grade 8</option>
+                  <option value="Grade 9">Grade 9</option>
+                  <option value="Grade 10">Grade 10</option>
+                  <option value="Grade 11">Grade 11</option>
+                  <option value="Grade 12">Grade 12</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <select class="form-select form-select-lg" id="state-select">
+                  <option value="" selected disabled>Select a state...</option>
+                  <option value="Common Core">Common Core</option>
+                  <option value="Texas">Texas</option>
+                  <option value="Florida">Florida</option>
+                  <option value="California">California</option>
+                </select>
+              </div>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary btn-lg flex-grow-1">
+                  <span class="spinner-border spinner-border-sm me-2" id="spinner" role="status" aria-hidden="true"></span>
+                  Find Skills
+                </button>
+                <button type="button" class="btn btn-success btn-lg flex-grow-1" id="standards-btn">
+                  Find State Standards
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="results-container">
+          <div class="no-results" id="no-results">
+            <h4>No matching skills found. Try another topic.</h4>
+          </div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('topic-form');
+      const topicInput = document.getElementById('topic-input');
+      const resultsContainer = document.getElementById('results');
+      const spinner = document.getElementById('spinner');
+      const noResults = document.getElementById('no-results');
+      const standardsBtn = document.getElementById('standards-btn');
+
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        // Clear previous results
+        resultsContainer.innerHTML = '';
+        noResults.style.display = 'none';
+        
+        // Show spinner
+        spinner.style.display = 'inline-block';
+        
+        const topic = topicInput.value.trim();
+        const grade = document.getElementById('grade-select').value;
+        
+        console.log(`Submitting search for topic: ${topic}, grade: ${grade}`);
+        
+        try {
+          const response = await fetch('/api/match', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ topic, grade }),
+          });
+          
+          const data = await response.json();
+          console.log('Response data:', data);
+          
+          // Hide spinner
+          spinner.style.display = 'none';
+          
+          if (data.error) {
+            showError(data.error);
+            return;
+          }
+          
+          if (data.skills && data.skills.length > 0) {
+            const originalSkillCount = data.skills.length;
+            renderSkills(data.skills);
+            
+            // Count how many skills have relevancy score >= 90
+            const highRelevanceCount = data.skills.filter(skill => 
+              (skill.RelevancyScore || 100) >= 90
+            ).length;
+            
+            if (data.batchesProcessed) {
+              const batchInfo = document.createElement('div');
+              batchInfo.className = 'alert alert-info mt-3';
+              batchInfo.innerHTML = `Processed ${data.batchesProcessed} batches of skills.<br>
+                <span class="fw-bold">Showing ${highRelevanceCount} skills with relevancy score ≥90 out of ${originalSkillCount} matched skills.</span>`;
+              resultsContainer.prepend(batchInfo);
+            }
+          } else if (Array.isArray(data) && data.length > 0) {
+            renderSkills(data);
+          } else {
+            noResults.style.display = 'block';
+            if (data.batchesProcessed) {
+              const batchInfo = document.createElement('div');
+              batchInfo.className = 'alert alert-info mt-3';
+              batchInfo.textContent = `Processed ${data.batchesProcessed} batches of skills but found no matching skills.`;
+              resultsContainer.appendChild(batchInfo);
+            }
+          }
+          
+          // Show errors if any
+          if (data.errors && data.errors.length > 0) {
+            const errorInfo = document.createElement('div');
+            errorInfo.className = 'alert alert-warning mt-3';
+            errorInfo.innerHTML = `<strong>Some batches had errors:</strong><br>` + 
+              data.errors.join('<br>');
+            resultsContainer.prepend(errorInfo);
+          }
+        } catch (error) {
+          console.error('Error:', error);
+          spinner.style.display = 'none';
+          showError('Failed to fetch skills. Please try again.');
+        }
+      });
+      
+      // Standards button click handler
+      standardsBtn.addEventListener('click', async function() {
+        const topic = topicInput.value.trim();
+        const state = document.getElementById('state-select').value;
+        
+        if (!topic) {
+          alert('Please enter a topic');
+          return;
+        }
+        
+        if (!state) {
+          alert('Please select a state');
+          return;
+        }
+        
+        // Clear previous results
+        resultsContainer.innerHTML = '';
+        noResults.style.display = 'none';
+        
+        // Show loading state
+        standardsBtn.disabled = true;
+        standardsBtn.innerHTML = 'Loading...';
+        
+        console.log(`Fetching state standards for topic: ${topic}, state: ${state}`);
+        
+        try {
+          const response = await fetch('/api/standards', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ topic, state, grade: document.getElementById('grade-select').value }),
+          });
+          
+          const data = await response.json();
+          console.log('Standards response:', data);
+          
+          // Reset button
+          standardsBtn.disabled = false;
+          standardsBtn.innerHTML = 'Find State Standards';
+          
+          if (data.error) {
+            showError(data.error);
+            return;
+          }
+          
+          if (data.standards && data.standards.length > 0) {
+            renderStandards(data.standards, state, topic);
+          } else {
+            noResults.style.display = 'block';
+            noResults.innerHTML = `<h4>No ${state} standards found for "${topic}". Try a different topic or state.</h4>`;
+          }
+        } catch (error) {
+          console.error('Error fetching standards:', error);
+          standardsBtn.disabled = false;
+          standardsBtn.innerHTML = 'Find State Standards';
+          showError('Failed to fetch standards. Please try again.');
+        }
+      });
+      
+      function renderSkills(skills) {
+        // Sort skills by relevancy score if available
+        if (skills.length > 0 && skills[0].RelevancyScore) {
+          skills.sort((a, b) => (b.RelevancyScore || 0) - (a.RelevancyScore || 0));
+        }
+        
+        // Filter out skills with relevancy score less than 90
+        const filteredSkills = skills.filter(skill => {
+          const score = skill.RelevancyScore || Math.max(100 - (skills.indexOf(skill) * 5), 10);
+          return score >= 90;
+        });
+        
+        if (filteredSkills.length === 0) {
+          noResults.style.display = 'block';
+          noResults.innerHTML = '<h4>No skills with relevancy score ≥90 found. Try another topic.</h4>';
+          return;
+        }
+        
+        // Group skills by their Skill property
+        const groupedSkills = {};
+        filteredSkills.forEach(skill => {
+          const skillKey = `${skill.Domain}-${skill.Topic}-${skill.Skill}`;
+          if (!groupedSkills[skillKey]) {
+            groupedSkills[skillKey] = {
+              domain: skill.Domain || 'Unknown Domain',
+              topic: skill.Topic || 'Unknown Topic', 
+              skill: skill.Skill || 'Unknown Skill',
+              subSkills: []
+            };
+          }
+          groupedSkills[skillKey].subSkills.push({
+            subSkill: skill['Sub-skill'] || 'No sub-skill information available',
+            relevancyScore: skill.RelevancyScore || Math.max(100 - (filteredSkills.indexOf(skill) * 5), 10),
+            category: skill.category || null
+          });
+        });
+        
+                          // Render grouped skills
+         Object.values(groupedSkills).forEach((skillGroup, groupIndex) => {
+           // Create the full breadcrumb and truncate if necessary
+           const fullBreadcrumb = `${skillGroup.domain} > ${skillGroup.topic} > ${skillGroup.skill}`;
+           let displayBreadcrumb;
+           
+           if (fullBreadcrumb.length > 80) {
+             // If too long, truncate and add ellipsis
+             displayBreadcrumb = fullBreadcrumb.substring(0, 77) + '...';
+           } else {
+             displayBreadcrumb = fullBreadcrumb;
+           }
+          
+          const card = document.createElement('div');
+          card.className = 'card result-card mb-3';
+          card.innerHTML = `
+            <div class="card-body p-4 position-relative">
+              <div class="d-flex justify-content-end position-absolute" style="top: 20px; right: 20px;">
+                <img src="/wayground-logo.png" alt="Wayground Curriculum" style="width: 120px; height: auto; object-fit: contain;">
+              </div>
+              <div class="mt-2">
+                <h5 class="domain-topic text-primary fw-bold mb-4">${displayBreadcrumb}</h5>
+                <div class="sub-skills-container">
+                  ${skillGroup.subSkills.map((subSkillData, subIndex) => `
+                    <div class="sub-skill-row d-flex align-items-center justify-content-between p-4 mb-3 rounded bg-light position-relative" 
+                         style="cursor: pointer;"
+                         onmouseover="this.style.backgroundColor='#e9ecef';"
+                         onmouseout="this.style.backgroundColor='#f8f9fa';">
+                      <div class="sub-skill-content">
+                        <div class="d-flex align-items-center mb-2">
+                          <span class="sub-skill-text me-2">${subSkillData.subSkill}</span>
+                          ${subSkillData.category ? `
+                            <span class="category-pill category-${subSkillData.category.toLowerCase()}">
+                              ${subSkillData.category}
+                            </span>
+                          ` : ''}
+                        </div>
+                      </div>
+                      <div class="arrow-icon" style="color: #343a40;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M12 4L10.59 5.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                        </svg>
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          `;
+          resultsContainer.appendChild(card);
+          
+          // Add a slight delay for a staggered appearance
+          setTimeout(() => {
+            card.style.opacity = '1';
+          }, groupIndex * 100);
+        });
+      }
+      
+      function renderStandards(standards, state, topic) {
+        // Filter standards with relevancy score >= 80
+        const filteredStandards = standards.filter(standard => 
+          (standard.relevancyScore || 0) >= 80
+        );
+        
+        if (filteredStandards.length === 0) {
+          noResults.style.display = 'block';
+          noResults.innerHTML = `<h4>No ${state} standards with relevancy score ≥80 found for "${topic}". Try a different topic.</h4>`;
+          return;
+        }
+        
+        // Add header
+        const headerCard = document.createElement('div');
+        headerCard.className = 'mb-4 p-4 rounded bg-light';
+        headerCard.style.border = '2px solid #343a40';
+        headerCard.innerHTML = `
+          <h4 class="mb-2 fw-bold" style="color: #343a40;">${state} Standards for "${topic}"</h4>
+          <p class="mb-0 text-muted">Found ${filteredStandards.length} relevant standards</p>
+        `;
+        resultsContainer.appendChild(headerCard);
+        
+        // Render each standard
+        filteredStandards.forEach((standard, index) => {
+          const description = standard.description || 'No description available';
+          const isLongDescription = description.length > 200;
+          const truncatedDescription = isLongDescription ? description.substring(0, 200) + '...' : description;
+          
+          const card = document.createElement('div');
+          card.className = 'mb-3';
+          card.innerHTML = `
+            <div class="sub-skill-row d-flex align-items-center justify-content-between p-4 rounded bg-light position-relative" 
+                 style="cursor: pointer; border: 2px solid #343a40;"
+                 onmouseover="this.style.backgroundColor='#e9ecef'; this.style.borderColor='#212529';"
+                 onmouseout="this.style.backgroundColor='#f8f9fa'; this.style.borderColor='#343a40';">
+              <div class="sub-skill-content" style="max-width: 85%;">
+                <div class="d-flex align-items-center mb-2">
+                  <h4 class="fw-bold mb-0 me-2" style="font-size: 1.5rem; color: #343a40;">${standard.code || 'Unknown Code'}</h4>
+                  ${standard.category ? `
+                    <span class="category-pill category-${standard.category.toLowerCase()}">
+                      ${standard.category}
+                    </span>
+                  ` : ''}
+                </div>
+                <span class="sub-skill-text description-text" data-full-text="${description.replace(/"/g, '&quot;')}" data-truncated-text="${truncatedDescription.replace(/"/g, '&quot;')}">${truncatedDescription}</span>
+                ${isLongDescription ? `
+                  <button class="btn btn-link p-0 ms-2 read-more-btn" style="font-size: 0.9rem; text-decoration: none; color: #007bff;" onclick="toggleDescription(this)">
+                    read more
+                  </button>
+                ` : ''}
+              </div>
+              <div class="arrow-icon" style="color: #343a40;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 4L10.59 5.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                </svg>
+              </div>
+            </div>
+          `;
+          resultsContainer.appendChild(card);
+          
+          // Add a slight delay for a staggered appearance
+          setTimeout(() => {
+            card.style.opacity = '1';
+          }, index * 100);
+        });
+      }
+      
+      function getScoreColor(score) {
+        // Return different colors based on the score range
+        if (score >= 90) return '#28a745'; // Green for high relevance
+        if (score >= 70) return '#17a2b8'; // Teal for good relevance
+        if (score >= 50) return '#ffc107'; // Yellow for medium relevance
+        return '#dc3545'; // Red for low relevance
+      }
+      
+      function showError(message) {
+        const errorAlert = document.createElement('div');
+        errorAlert.className = 'alert alert-danger';
+        errorAlert.textContent = message;
+        resultsContainer.appendChild(errorAlert);
+      }
+      
+      // Global function for toggling description text
+      window.toggleDescription = function(button) {
+        const descriptionElement = button.parentElement.querySelector('.description-text');
+        const fullText = descriptionElement.getAttribute('data-full-text');
+        const truncatedText = descriptionElement.getAttribute('data-truncated-text');
+        const isExpanded = button.textContent.trim() === 'read less';
+        
+        if (isExpanded) {
+          descriptionElement.textContent = truncatedText;
+          button.textContent = 'read more';
+        } else {
+          descriptionElement.textContent = fullText;
+          button.textContent = 'read less';
+        }
+      };
+    });
+  </script>
+</body>
+</html> 

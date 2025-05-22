@@ -1,0 +1,1207 @@
+Domain,Topic,Skill,Sub-skill
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions","Identifying parts of an algebraic expression (constant, variable, term, coefficient and factor) using mathematical terminology "
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions",Interpreting parts of an algebraic expression in terms of a context
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions",Understanding one or more parts of an algebraic expression as a single entity
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions",Interpreting one or more parts of an algebraic expression as a single entity in terms of a context
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions",Evaluating algebraic expressions when the variable(s) takes/take on specific values (including order of operations)
+Algebra,Algebraic expressions,"Writing, reading, and evaluating algebraic expressions",Writing expressions in different forms to demonstrate how the quantities are related
+Algebra,Algebraic expressions,Simplifying algebraic expressions,"Applying properties of operations (commutative, distributive and associative) to generate equivalent expressions"
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Identifying when two expressions are equivalent through simplification
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Applying properties of operations to add and/or subtract linear expressions
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Applying properties of operations to expand and/or factor linear expressions
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Applying properties of operations to simplify algebraic expressions involving multiple basic operations
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Applying properties of operations to simplify algebraic expressions involving exponents and/or radicals
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Applying laws of exponents to simplify algebraic expressions
+Algebra,Algebraic expressions,Simplifying algebraic expressions,Using the laws of exponents to transform algebraic expressions for exponential functions
+Algebra,Algebraic expressions,Framing algebraic expressions for mathematical and real-world problems,Expressing operations involving both numbers and letters that stand for numbers
+Algebra,Algebraic expressions,Framing algebraic expressions for mathematical and real-world problems,Using variables to frame expressions in one variable for real-life problems
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,Adding and/or subtracting rational algebraic expressions
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,Multiplying two or more rational algebraic expressions
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,Rewriting rational algebraic expressions by cancelling out common non-zero factors
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,"Writing a(x)/b(x) in the form of q(x) + r(x)/b(x), with the degree of r(x) less than the degree of b(x) using either inspection or technology"
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,"Knowing that rational algebraic expressions are closed under the operations of addition, subtraction, multiplication and division"
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,Adding and/or subtracting rational algebraic expressions involving radicals
+Algebra,Algebraic expressions,Operations on rational algebraic expressions,Multiplying and/or dividing rational algebraic expressions involving radicals
+Algebra,Linear equations (one variable),Understanding linear equations in one variable,Using substitution to determine whether a given number makes an equation true
+Algebra,Linear equations (one variable),Understanding linear equations in one variable,Framing linear equations in one variable (for mathematical and real-life problems)
+Algebra,Linear equations (one variable),Understanding linear equations in one variable,Comparing algebraic solutions to arithmetic solutions (sequences of operations in each approach)
+Algebra,Linear equations (one variable),Solving single-step problems using linear equations in one variable,"Solving problems with equations of the form x + p = q, where p and q are rational numbers"
+Algebra,Linear equations (one variable),Solving single-step problems using linear equations in one variable,"Solving problems with equations of the form px = q, where p and q are rational numbers"
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,"Solving problems with equations of the form px + q = r, where p, q and r are rational numbers"
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,"Solving problems with equations of the form p(x + q) = r, where p, q and r are rational numbers"
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,Generating and understanding linear equations in one variable with infinitely many solutions
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,Generating and understanding linear equations in one variable with no solution
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,Solving linear equations in one variable with variables on both sides of the equation
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,"Solving linear equations in one variable, where coefficients are represented by letters"
+Algebra,Linear equations (one variable),Solving multi-step problems using linear equations in one variable,Solving problems involving multi-step linear equations in one variable
+Algebra,Linear equations (one variable),Solving multi-step problems involving absolute value linear equations in one variable,Solving equations where absolute value expressions are on one side of the the equation
+Algebra,Linear equations (one variable),Solving multi-step problems involving absolute value linear equations in one variable,Solving equations where absolute value expressions are on both sides of the the equation
+Algebra,Linear equations (one variable),Solving multi-step problems involving absolute value linear equations in one variable,Solving absolute value equations with extraneous solutions
+Algebra,Linear inequalities (one variable),Understanding linear inequalities in one variable,Using substitution to determine whether a given number makes an inequality true
+Algebra,Linear inequalities (one variable),Framing/writing linear inequalities in one variable,Framing inequalities (px ≥ c or px ≤ c forms) in the context of different problems
+Algebra,Linear inequalities (one variable),Framing/writing linear inequalities in one variable,Framing inequalities (px + q ≤ r or px + q ≥ r forms) in the context of different problems
+Algebra,Linear inequalities (one variable),Framing/writing linear inequalities in one variable,Framing compound inequalities in the context of different problems
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting inequalities (px ≥ c or px ≤ c forms)
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting inequalities (px + q ≤ r or px + q ≥ r forms)
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting inequalities with no solution
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting inequalities with variables on both sides on the inequality
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting linear inequalities with coefficients represented by letters
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting compound inequalities
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving and/or interpreting absolute value inequalities
+Algebra,Linear inequalities (one variable),Solving/interpreting linear inequalities in one variable,Solving real-world problems involving multi-step linear inequalities in one variable
+Algebra,Linear inequalities (one variable),Representing solutions of linear inequalities in one variable on a number line,Representing solutions of inequalities (px ≥ c or px ≤ c forms) on number lines
+Algebra,Linear inequalities (one variable),Representing solutions of linear inequalities in one variable on a number line,Representing solutions of inequalities (px + q ≤ r or px + q ≥ r forms) on number lines
+Algebra,Linear inequalities (one variable),Representing solutions of linear inequalities in one variable on a number line,Representing solutions of compound inequalities on number lines
+Algebra,Linear inequalities (one variable),Representing solutions of linear inequalities in one variable on a number line,Representing solutions of absolute value inequalities on number lines
+Algebra,Linear equations (two variables),Understanding pairs of linear equations in two variables,Writing an equation to express one quantity (dependent variable) in terms of another (independent variable)
+Algebra,Linear equations (two variables),Understanding pairs of linear equations in two variables,Examining the relationship between the dependent and independent variables using tables and graphs
+Algebra,Linear equations (two variables),Understanding pairs of linear equations in two variables,Writing a linear equation in two variables in the standard form (ax + by + c = 0)
+Algebra,Linear equations (two variables),Understanding pairs of linear equations in two variables,Using substitution to determine whether a pair of numbers makes an equation true
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Graphically understanding the solution of a pair of linear equations in two variables
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a pair of linear equations in two variables graphically
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a pair of linear equations in two variables algebraically by substitution
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a pair of linear equations in two variables algebraically by elimination
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a pair of linear equations in two variables with infinitely many solutions
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a pair of linear equations in two variables with no solution
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving a simple pair of linear equations in two variables by inspection
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving real-world problems involving a pair of linear equations in two variables
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Solving systems of linear equations approximately
+Algebra,Linear equations (two variables),Solving pairs of linear equations in two variables,Using the inverse of a matrix (2 × 2) to solve systems of linear equations in two variables algebraically
+Algebra,Equation of a straight line,Connecting proportional relationships and the equation of a straight line,Graphing proportional relationships
+Algebra,Equation of a straight line,Connecting proportional relationships and the equation of a straight line,Comparing proportional relationships represented graphically
+Algebra,Equation of a straight line,Understanding and using slopes,Solving problems involving slopes (including interpreting unit rates)
+Algebra,Equation of a straight line,Understanding and using slopes,Using similar triangles to understand why the slope of a straight line remains constant
+Algebra,Equation of a straight line,Writing the equation of a straight line,Writing an equation of a straight line using a slope and a general point
+Algebra,Equation of a straight line,Writing the equation of a straight line,Writing an equation of a straight line using two points
+Algebra,Equation of a straight line,Writing the equation of a straight line,Writing an equation of a straight line when the line is represented graphically
+Algebra,Equation of a straight line,Writing the equation of a straight line,Deriving and using the equation y = mx for a line passing through origin
+Algebra,Equation of a straight line,Writing the equation of a straight line,Deriving and using the equation y = mx + b for a line with y-intercept b
+Algebra,Equation of a straight line,Writing the equation of a straight line,Proving the slope criterion for parallel lines and using it to solve geometric problems
+Algebra,Equation of a straight line,Writing the equation of a straight line,Proving the slope criterion for perpendicular lines and using it to solve geometric problems
+Algebra,Equation of a straight line,Graphing the equation of a straight line,Graphing a horizontal line and/or vertical line
+Algebra,Equation of a straight line,Graphing the equation of a straight line,Identifying axes intercepts when a line is represented graphically
+Algebra,Equation of a straight line,Graphing the equation of a straight line,Graphing an equation of a straight line represented in different forms
+Algebra,Equation of a straight line,Graphing the equation of a straight line,Solving mathematical problems involving graphing an equation of a straight line
+Algebra,Equation of a straight line,Graphing the equation of a straight line,Solving real-world problems involving graphing an equation of a straight line (including modelling)
+Algebra,Linear equations (three variables),Understanding and solving linear equations in three variables,Visualising the solution of a system of linear equations in three variables
+Algebra,Linear equations (three variables),Understanding and solving linear equations in three variables,Solving a system of linear equations in three variables algebraically
+Algebra,Linear equations (three variables),Understanding and solving linear equations in three variables,Solving real-world problems involving multi-step linear equations in three variables
+Algebra,Linear equations (three variables),Understanding and solving linear equations in three variables,Using the inverse of a matrix (3 × 3 or greater) to solve systems of linear equations in three variables with technology
+Algebra,Roots,Evaluating roots,Evaluating square roots of perfect squares
+Algebra,Roots,Evaluating roots,Evaluating cube roots of perfect cubes
+Algebra,Roots,Evaluating roots,Evaluating nth roots
+Algebra,Roots,Evaluating roots,Evaluating expressions involving square roots of positive numbers
+Algebra,Roots,Evaluating roots,Evaluating expressions involving cube roots of positive/negative numbers
+Algebra,Roots,Evaluating roots,Evaluating expressions involving nth roots
+Algebra,Roots,Applying roots,Solving problems involving square roots of positive numbers
+Algebra,Roots,Applying roots,Solving problems involving cube roots of positive/negative numbers
+Algebra,Roots,Applying roots,Solving problems involving nth roots
+Algebra,Roots,Using symbols for solutions to equations,Using the square root symbol for solutions to equations of the form x^2 = p
+Algebra,Roots,Using symbols for solutions to equations,Using the cube root symbol for solutions to equations of the form x^3 = p
+Algebra,Roots,Using symbols for solutions to equations,Using the nth root symbol for solutions to equations of the form x^n = p
+Algebra,Non-linear equations (one variable),Understanding quadratic equations in one variable,Writing a quadratic equation in the standard form (ax^2 + bx + c = 0)
+Algebra,Non-linear equations (one variable),Understanding quadratic equations in one variable,Factoring a quadratic expression/equation to reveal its zeroes
+Algebra,Non-linear equations (one variable),Understanding quadratic equations in one variable,Deriving the quadratic formula using the method of completing the square
+Algebra,Non-linear equations (one variable),Understanding quadratic equations in one variable,recognizing when a quadratic equation has complex solutions using the discriminant
+Algebra,Non-linear equations (one variable),Understanding multi-step problems involving non-linear equations in one variable,Framing non-linear equations in one variable
+Algebra,Non-linear equations (one variable),Understanding multi-step problems involving non-linear equations in one variable,Representing constraints by linear or non-linear equations in one variable
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations by analysing their graphs
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations by inspection (algebraically)
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations by factorisation
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations by completing the square
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations by using the quadratic formula
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving quadratic equations with complex number solutions using the quadratic formula
+Algebra,Non-linear equations (one variable),Solving multi-step problems using quadratic equations in one variable,Solving real-world problems involving quadratic equations
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Explaining and justifying each step in solving a non-linear equation
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Solving rational equations in one variable (including extraneous solutions)
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Solving radical equations in one variable (including extraneous solutions)
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Solving exponential equations in one variable (including unlike bases)
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Solving logarithmic equations in one variable
+Algebra,Non-linear equations (one variable),Solving multi-step problems using non-linear equations in one variable,Interpreting solutions as viable or non-viable in a modelling context
+Algebra,Non-linear inequalities (one variable),Understanding and representing non-linear inequalities in one variable,Framing non-linear inequalities in one variable
+Algebra,Non-linear inequalities (one variable),Understanding and representing non-linear inequalities in one variable,Representing constraints by linear or non-linear inequalities in one variable
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Solving quadratic inequalities in one variable (algebraically or graphically)
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Solving real-world problems involving quadratic inequalities
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Solving radical inequalities in one variable
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Interpreting radical inequalities in real-world contexts
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Solving exponential/logarithmic inequalities in one variable
+Algebra,Non-linear inequalities (one variable),Solving multi-step problems using non-linear inequalities in one variable,Interpreting exponential/logarithmic inequalities in real-world contexts
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Framing non-linear equations in two or more variables to represent relationships between quantities
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Graphing equations on coordinate axes with labels and scales
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Representing constraints by linear or non-linear equations in two or more variables
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Rearranging and using formulae to highlight a quantity of interest
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Proving that replacing one equation by the sum of that equation and a multiple of the other produces a system of two-variable equations with the same solutions
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Representing a system of linear equations as a single matrix equation 
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Understanding that the graph of a non-linear equation in two variables is the set of all its solutions plotted in the coordinate plane
+Algebra,Non-linear equations (multi-variable),Understanding and generating non-linear equations in two or more variables,Explaining why the x-coordinates of the points where the graphs of the equations y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x)
+Algebra,Non-linear equations (multi-variable),Solving multi-step problems using non-linear equations in two or more variables,Solving a system consisting of a linear equation and a quadratic equation in two variables algebraically
+Algebra,Non-linear equations (multi-variable),Solving multi-step problems using non-linear equations in two or more variables,Solving a system consisting of a linear equation and a quadratic equation in two variables graphically
+Algebra,Non-linear equations (multi-variable),Solving multi-step problems using non-linear equations in two or more variables,Finding the solutions to the equations y = f(x) and y = g(x) approximately
+Algebra,Linear inequalities (two variables),Understanding linear inequalities in two variables,Using substitution to determine whether a given pair of numbers makes an inequality true
+Algebra,Linear inequalities (two variables),Framing/writing linear inequalities in two variables,Framing inequalities of the form px + qy ≤ r or px + qy < r in the context of different problems
+Algebra,Linear inequalities (two variables),Framing/writing linear inequalities in two variables,Framing inequalities of the form px + qy ≥ r or px + qy > r in the context of different problems
+Algebra,Linear inequalities (two variables),Representing solutions of linear inequalities in two variables on a graph,Representing solutions of inequalities of the form px + qy ≤ r or px + qy < r on graphs
+Algebra,Linear inequalities (two variables),Representing solutions of linear inequalities in two variables on a graph,Representing solutions of inequalities of the form px + qy ≥ r or px + qy > r on graphs
+Algebra,Linear inequalities (two variables),Representing solutions of linear inequalities in two variables on a graph,Graphing the solution set to a system of linear inequalities in two variables as the intersection of the half-planes
+Algebra,Linear inequalities (two variables),Solving/interpreting linear inequalities in two variables,Solving real-world problems involving multi-step linear inequalities in two variables
+Algebra,Functions (general),Understanding functions,Understanding that a function is a mapping from one set of inputs (called the domain) to another set of outputs (called the range)
+Algebra,Functions (general),Understanding functions,Identifying whether a given relation is a function
+Algebra,Functions (general),Understanding functions,"Understanding that, if f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x"
+Algebra,Functions (general),Understanding functions,Understanding that the graph of f is the graph of the equation y = f(x)
+Algebra,Functions (general),Understanding functions,Finding the domain and range of a function
+Algebra,Functions (general),Understanding functions,Using the vertical line test to determine whether a graph is a function or not
+Algebra,Functions (general),Understanding functions,"Comparing properties of two functions that are represented either algebraically, graphically, in tables and/or using verbal statements"
+Algebra,Functions (general),Understanding functions,recognizing even and odd functions from their graphs and/or algebraic expressions
+Algebra,Functions (general),Understanding functions,"Classifying equations/functions as showing direct variation, inverse variation or neither"
+Algebra,Functions (general),Understanding functions,Finding the inverse of a function (if it exists)
+Algebra,Functions (general),Understanding functions,"Verifying, by composition, that one function is the inverse of another"
+Algebra,Functions (general),Understanding functions,Reading the values of an inverse function from a graph or a table
+Algebra,Functions (general),Writing and interpreting functions,Using and interpreting function notation (with and without a context)
+Algebra,Functions (general),Writing and interpreting functions,Interpreting key features of graphs or tables of functions in terms of the quantities involved
+Algebra,Functions (general),Writing and interpreting functions,Calculating and interpreting the average rate of change (including using the initial value of the function)
+Algebra,Functions (general),Writing and interpreting functions,Estimating the rate of change of a function graphically
+Algebra,Functions (general),Writing and interpreting functions,Determining an explicit expression for a function from a context
+Algebra,Functions (general),Writing and interpreting functions,Determining a recursive process for a function from a context
+Algebra,Functions (general),Writing and interpreting functions,Combining standard function types using arithmetic operations (including finding new domains and ranges)
+Algebra,Functions (general),Writing and interpreting functions,Writing and interpreting composite functions
+Algebra,Functions (general),Writing and interpreting functions,Writing and interpreting piecewise-defined functions
+Algebra,Functions (general),Writing and interpreting functions,Writing and interpreting absolute value functions
+Algebra,Functions (general),Writing and interpreting functions,Writing and interpreting direct/inverse variation functions
+Algebra,Functions (general),Graphing functions,Graphing a function using ordered pairs (including relating a domain of a function to its graph)
+Algebra,Functions (general),Graphing functions,Sketching a graph showing key features when it has been described in words or tables
+Algebra,Functions (general),Graphing functions,Describing (qualitatively) the relationship between two quantities by analysing graphs
+Algebra,Functions (general),Graphing functions,Graphing square root and cube root functions
+Algebra,Functions (general),Graphing functions,Graphing piecewise-defined functions
+Algebra,Functions (general),Graphing functions,Graphing polynomial (excluding quadratics) functions
+Algebra,Functions (general),Graphing functions,Graphing rational functions
+Algebra,Functions (general),Graphing functions,Identifying/finding turning points of functions from their graphs
+Algebra,Functions (general),Graphing functions,"Identifying function families (among constant, linear, absolute value and quadratic)"
+Algebra,Functions (general),Graphing functions,Identifying and reasoning the effects of reflection about different lines on graphs that are not linear or quadratic
+Algebra,Functions (general),Graphing functions,Identifying and reasoning the effects of vertical and/or horizontal translations on graphs that are not linear or quadratic
+Algebra,Functions (general),Graphing functions,Identifying and reasoning the effects of vertical and/or horizontal stretches or shrinks on graphs that are not linear or quadratic
+Algebra,Functions (general),Applying and analysing functions,Using the horizontal line test to determine whether an inverse of a function exists
+Algebra,Functions (general),Applying and analysing functions,Evaluating functions (excluding exponential and trigonometric) at specific points
+Algebra,Functions (general),Applying and analysing functions,Defining and recognizing recursive functions (including sequences)
+Algebra,Functions (general),Applying and analysing functions,Graphing polynomial functions (degree > 2)
+Algebra,Functions (general),Applying and analysing functions,Identifying zeroes of rational functions when suitable factorisations are available
+Algebra,Functions (general),Applying and analysing functions,Identifying asymptotes of rational functions when suitable factorisations are available
+Algebra,Functions (general),Applying and analysing functions,Producing an invertible function from a non-invertible function by restricting the domain
+Algebra,Functions (general),Applying and analysing functions,"Solving problems involving comparing different classes of functions (linear, quadratic and exponential)"
+Algebra,Functions (general),Applying and analysing functions,Solving real-world problems involving functions (including modelling)
+Algebra,Functions (linear),Understanding linear functions,Proving that linear functions grow by equal differences over equal intervals
+Algebra,Functions (linear),Understanding linear functions,recognizing situations in which one quantity changes at a constant rate with respect to another quantity
+Algebra,Functions (linear),Understanding linear functions,Distinguishing between linear and non-linear functions
+Algebra,Functions (linear),Writing and interpreting linear functions,Identifying/Constructing a linear function (including arithmetic sequences) from a graph
+Algebra,Functions (linear),Writing and interpreting linear functions,Identifying/Constructing a linear function (including arithmetic sequences) from a description/equation
+Algebra,Functions (linear),Writing and interpreting linear functions,Identifying/Constructing a linear function (including arithmetic sequences) from a set of input-output pairs
+Algebra,Functions (linear),Writing and interpreting linear functions,Interpreting the parameters of a linear function in terms of a context
+Algebra,Functions (linear),Graphing linear functions,Graphing linear functions and showing intercepts
+Algebra,Functions (linear),Graphing linear functions,Translating or reflecting a linear function (including writing the final function)
+Algebra,Functions (linear),Graphing linear functions,Stretching or shrinking a linear function (including writing the final function)
+Algebra,Functions (linear),Graphing linear functions,Performing multiple transformations on linear functions (including writing the final function)
+Algebra,Functions (linear),Graphing linear functions,Translating or reflecting an absolute value linear function (including writing the final function)
+Algebra,Functions (linear),Graphing linear functions,Stretching or shrinking an absolute value linear function (including writing the final function)
+Algebra,Functions (linear),Graphing linear functions,Performing multiple transformations on absolute value linear functions (including writing the final function)
+Algebra,Functions (quadratic),Understanding quadratic functions,Identifying characteristics of quadratic functions (vertex and axis of symmetry)
+Algebra,Functions (quadratic),Writing and interpreting quadratic functions,Writing a quadratic function under specific conditions
+Algebra,Functions (quadratic),Writing and interpreting quadratic functions,Interpreting key features of a quadratic function within a real-world context
+Algebra,Functions (quadratic),Graphing quadratic functions,"Graphing quadratic functions (including showing intercepts, maxima or minima)"
+Algebra,Functions (quadratic),Graphing quadratic functions,Translating or reflecting a quadratic function (including writing the final function)
+Algebra,Functions (quadratic),Graphing quadratic functions,Stretching or shrinking a quadratic function (including writing the final function)
+Algebra,Functions (quadratic),Graphing quadratic functions,Performing multiple transformations on quadratic functions (including writing the final function)
+Algebra,Functions (quadratic),Applying and analysing quadratic functions,"Using the process of factorisation to find/show zeroes, extreme values and symmetry on graphs of quadratic functions"
+Algebra,Functions (quadratic),Applying and analysing quadratic functions,"Using the process of completing the square to find/show zeroes, extreme values and symmetry on graphs of quadratic functions"
+Algebra,Functions (quadratic),Applying and analysing quadratic functions,Solving real-world problems involving quadratic functions
+Algebra,Polynomials,Understanding polynomials,Identifying and classifying polynomials
+Algebra,Polynomials,Understanding polynomials,Finding the degree of a polynomial
+Algebra,Polynomials,Understanding polynomials,Writing a polynomial in the standard form (decreasing order of degree)
+Algebra,Polynomials,Adding and subtracting polynomials,Adding two or more polynomials
+Algebra,Polynomials,Adding and subtracting polynomials,Subtracting polynomials
+Algebra,Polynomials,Adding and subtracting polynomials,Knowing that polynomials are closed under the operations of addition and subtraction
+Algebra,Polynomials,Multiplying polynomials,Multiplying two or more monomials
+Algebra,Polynomials,Multiplying polynomials,Multiplying two or more polynomials
+Algebra,Polynomials,Multiplying polynomials,Knowing that polynomials are closed under multiplication
+Algebra,Polynomials,Dividing polynomials,Dividing polynomials by factorisation
+Algebra,Polynomials,Dividing polynomials,"Writing a(x)/b(x) in the form of q(x) + r(x)/b(x), with the degree of r(x) less than the degree of b(x) using the long division algorithm"
+Algebra,Polynomials,Factorising polynomials,Factorising polynomials by finding the GCF or GCD or HCF
+Algebra,Polynomials,Factorising polynomials,Factorising polynomials that are of the form or reducible to the form ax^2 + bx + c
+Algebra,Polynomials,Factorising polynomials,Factorising polynomials by grouping
+Algebra,Polynomials,Factorising polynomials,Factorising polynomials using algebraic identities
+Algebra,Polynomials,Understanding zeroes and factors of polynomials,Stating and applying the remainder theorem in reasoning with polynomials
+Algebra,Polynomials,Understanding zeroes and factors of polynomials,Stating and applying the factor theorem in reasoning with polynomials
+Algebra,Polynomials,Understanding zeroes and factors of polynomials,Identifying zeroes of polynomials (degree > 2) when suitable factorisations are available
+Algebra,Polynomials,Understanding zeroes and factors of polynomials,Using zeroes of polynomials to sketch their graphs and/or write the polynomials
+Algebra,Polynomials,Understanding zeroes and factors of polynomials,Applying the Fundamental Theorem of Algebra to determine the zeroes/number of zeroes
+Algebra,Polynomials,Applying algebraic identities to solve problems,"Proving different algebraic identities related to squaring, difference of squares and cubing"
+Algebra,Polynomials,Applying algebraic identities to solve problems,Using algebraic identities to solve mathematical problems
+Algebra,Polynomials,Understanding and applying the binomial theorem,Stating the binomial theorem (n is a positive integer) for the expansion of (x + y)^n
+Algebra,Polynomials,Understanding and applying the binomial theorem,Determining the coefficients of the binomial expansion by Pascal’s Triangle
+Algebra,Polynomials,Understanding and applying the binomial theorem,Using the binomial theorem to solve problems
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,Defining and using the natural base 'e'
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,Identifying and evaluating exponential functions
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,Deriving and understanding the laws of logarithms from the laws of exponents
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,Applying the laws of logarithms to simplify/evaluate expressions
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,Proving that exponential functions grow or decay by equal factors over equal intervals
+Algebra,Functions (exponential and logarithmic),Understanding exponential and logarithmic functions,recognizing situations and solving problems in which a quantity grows or decays by a constant percent rate
+Algebra,Functions (exponential and logarithmic),Writing and interpreting exponential functions,Constructing an exponential function (including geometric sequences) from a graph
+Algebra,Functions (exponential and logarithmic),Writing and interpreting exponential functions,Constructing an exponential function (including geometric sequences) from a description
+Algebra,Functions (exponential and logarithmic),Writing and interpreting exponential functions,Constructing an exponential function (including geometric sequences) from a set of input-output pairs
+Algebra,Functions (exponential and logarithmic),Writing and interpreting exponential functions,Interpreting the parameters in an exponential function in terms of a context
+Algebra,Functions (exponential and logarithmic),Graphing exponential and logarithmic functions,"Graphing exponential functions (including growth/decay), showing intercepts and end behavior"
+Algebra,Functions (exponential and logarithmic),Graphing exponential and logarithmic functions,"Graphing logarithmic functions, showing intercepts and end behavior"
+Algebra,Functions (exponential and logarithmic),Graphing exponential and logarithmic functions,Performing multiple transformations on different exponential/logarithmic functions (including writing the final function)
+Algebra,Functions (exponential and logarithmic),Applying and analysing exponential and logarithmic functions,Applying the laws of exponents to interpret expressions for exponential functions
+Algebra,Functions (exponential and logarithmic),Applying and analysing exponential and logarithmic functions,Understanding and using the inverse relationship between exponential and logarithmic functions to solve problems
+Algebra,Functions (exponential and logarithmic),Applying and analysing exponential and logarithmic functions,Observing that a quantity increasing as an exponential function eventually exceeds a quantity increasing as a polynomial function
+Algebra,Functions (exponential and logarithmic),Applying and analysing exponential and logarithmic functions,Expressing the solution of exponential models (ab^(ct) = d) where the base is b as logarithms using technology
+Algebra,Functions (exponential and logarithmic),Applying and analysing exponential and logarithmic functions,Solving real-world problems involving exponential and/or logarithmic functions (including modelling)
+Algebra,Functions (trigonometric),Understanding trigonometric functions,Understanding and using the unit circle to extend trigonometric functions to all real numbers (both degrees and radians)
+Algebra,Functions (trigonometric),Understanding trigonometric functions,"Using a right-angled isosceles triangle to geometrically determine the values of sine, cosine and tangent for π/4"
+Algebra,Functions (trigonometric),Understanding trigonometric functions,"Using an equilateral triangle to geometrically determine the values of sine, cosine and tangent for π/6 and π/3"
+Algebra,Functions (trigonometric),Understanding trigonometric functions,"Choosing trigonometric functions to model periodic phenomena with specified amplitude, frequency and midline"
+Algebra,Functions (trigonometric),Understanding trigonometric functions,Proving the Pythagorean identity sin^2(θ) + cos^2(θ) = 1 and its equivalent identities with other ratios
+Algebra,Functions (trigonometric),Understanding trigonometric functions,Proving the addition and subtraction formulae for the sine function
+Algebra,Functions (trigonometric),Understanding trigonometric functions,Proving the addition and subtraction formulae for the cosine function
+Algebra,Functions (trigonometric),Understanding trigonometric functions,Proving the addition and subtraction formulae for the tangent function
+Algebra,Functions (trigonometric),Graphing trigonometric functions,recognizing that restricting a trigonometric function to a domain on which it is always increasing/decreasing allows its inverse to exist
+Algebra,Functions (trigonometric),Graphing trigonometric functions,"Graphing the sine and cosine functions (including showing period, midline and amplitude)"
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Translating or reflecting the sine/cosine function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Stretching or shrinking the sine/cosine function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,"Graphing the tangent and cotangent functions (including showing period, midline and amplitude)"
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Translating or reflecting the tangent/cotangent function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Stretching or shrinking the tangent/cotangent function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,"Graphing the secant and cosecant functions (including showing period, midline and amplitude)"
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Translating or reflecting the secant/cosecant function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Stretching or shrinking the secant/cosecant function (including writing the final function)
+Algebra,Functions (trigonometric),Graphing trigonometric functions,Performing multiple transformations on different trigonometric functions (including writing the final function)
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,"Applying understanding of the unit circle to express the values of sine, cosine and tangent for π ± x in terms of x"
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,"Applying understanding of the unit circle to express the values of sine, cosine and tangent for 2π – x in terms of x"
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying understanding of the unit circle to explain symmetry (odd and even functions) and/or periodicity
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Using inverse functions to solve trigonometric equations
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Evaluating and interpreting the solutions to trigonometric equations in real-world contexts using technology
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying the Pythagorean identity (sin^2(θ) + cos^2(θ) = 1) and its equivalent identities to find the other ratios
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying trigonometric identities to solve proof-type questions
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying the addition and subtraction formulae for the sine function
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying the addition and subtraction formulae for the cosine function
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Applying the addition and subtraction formulae for the tangent function
+Algebra,Functions (trigonometric),Applying and analysing trigonometric functions,Solving real-world problems involving trigonometric functions (including frequencies and modelling)
+Algebra,Sequences and series,Identifying and writing sequences,Writing terms of a sequence when given the general formula (including arithmetic and geometric sequences)
+Algebra,Sequences and series,Identifying and writing sequences,Writing terms of a sequence recursively (including arithmetic and geometric sequences)
+Algebra,Sequences and series,Identifying and writing sequences,Identifying and writing rules for a sequence when given some terms of the sequence (including arithmetic and geometric sequences)
+Algebra,Sequences and series,Understanding and applying sequences,Using arithmetic sequences to model situations
+Algebra,Sequences and series,Understanding and applying sequences,Using geometric sequences to model situations
+Algebra,Sequences and series,Understanding and applying arithmetic series,Deriving the formula for the sum of a finite arithmetic series
+Algebra,Sequences and series,Understanding and applying arithmetic series,Applying the formula for the sum of a finite arithmetic series to solve problems
+Algebra,Sequences and series,Understanding and applying geometric series,Deriving the formula for the sum of a finite geometric series
+Algebra,Sequences and series,Understanding and applying geometric series,Applying the formula for the sum of a finite geometric series to solve problems
+Algebra,Sequences and series,Understanding and applying geometric series,Deriving the formula for the sum of an infinite geometric series
+Algebra,Sequences and series,Understanding and applying geometric series,Applying the formula for the sum of an infinite geometric series to solve problems
+Geometry,Angles,Drawing and naming angles,Drawing right angles
+Geometry,Angles,Drawing and naming angles,Drawing acute and obtuse angles
+Geometry,Angles,Drawing and naming angles,Naming angles using points
+Geometry,Angles,Drawing and naming angles,Sketching angles of a specified measure
+Geometry,Angles,Drawing and naming angles,Sketching negative angles (including understanding of clockwise and anticlockwise rotations)
+Geometry,Angles,Understanding and measuring angles,Understanding that an angle that turns through 1/360 of a circle is a one-degree angle
+Geometry,Angles,Understanding and measuring angles,Understanding that an angle that turns through 'n' one-degree angles has an angle measure of 'n' degrees
+Geometry,Angles,Understanding and measuring angles,Measuring angles using a protractor
+Geometry,Angles,Understanding and measuring angles,recognizing angle measures as additive
+Geometry,Angles,Understanding and measuring angles,Proving that vertically opposite angles are equal
+Geometry,Angles,Understanding and measuring angles,Finding coterminal angles
+Geometry,Angles,Solving problems involving angles and equations,Solving addition and/or subtraction problems involving unknown angles on a diagram
+Geometry,Angles,Solving problems involving angles and equations,Applying facts about vertically opposite angles to solve problems
+Geometry,Angles,Solving problems involving angles and equations,Applying facts about complementary angles to solve problems
+Geometry,Angles,Solving problems involving angles and equations,Applying facts about supplementary angles to solve problems
+Geometry,Angles,Solving problems involving angles and equations,"Applying facts about two or more types of angles (vertically opposite, complementary, supplementary, adjacent) to solve problems"
+Geometry,Area,Developing an understanding of area,Understanding that a square with side length 1 unit can be used to measure area
+Geometry,Area,Developing an understanding of area,Understanding that a plane figure which can be fully covered by 'n' unit squares has an area of 'n' square units
+Geometry,Area,Developing an understanding of area,Understanding when area is the quantity of interest involved in a scenario (including cases where contrasting it with perimeter or volume)
+Geometry,Area,Developing an understanding of area,Measuring area by counting unit squares
+Geometry,Area,Developing an understanding of area,Finding the area of a rectangle by tiling and recognizing that the area is the product of its side lengths
+Geometry,Area,Developing an understanding of area,Using a concrete case to show that the area of a rectangle with side lengths a and b + c is the sum of a × b and a × c
+Geometry,Area,Developing an understanding of area,recognizing that area is additive and applying this fact to decompose figures to find areas
+Geometry,Area,Measuring and estimating area of triangles,Calculating areas of right-angled triangles
+Geometry,Area,Measuring and estimating area of triangles,Calculating areas of triangles (excluding right-angled triangles)
+Geometry,Area,Measuring and estimating area of quadrilaterals,Applying the area formula for squares to solve problems
+Geometry,Area,Measuring and estimating area of quadrilaterals,Applying the area formula for rectangles to solve problems
+Geometry,Area,Connecting perimeter and area of rectangles,Drawing rectangles with the same area but different perimeters
+Geometry,Area,Connecting perimeter and area of rectangles,Drawing rectangles with the same perimeter but different areas 
+Geometry,Area,Measuring and estimating area of quadrilaterals,Calculating areas of rhombuses
+Geometry,Area,Measuring and estimating area of quadrilaterals,"Calculating areas of parallelograms (excluding squares, rectangles and rhombuses)"
+Geometry,Area,Measuring and estimating area of quadrilaterals,Calculating areas of trapezoids
+Geometry,Area,Measuring and estimating area of miscellaneous shapes,Calculating areas of irregular polygons
+Geometry,Area,Measuring and estimating area of miscellaneous shapes,Estimating the area of two-dimensional composite shapes using a square grid
+Geometry,Area,Measuring and estimating area of miscellaneous shapes,Solving problems involving areas of two-dimensional shapes
+Geometry,Area,Measuring and estimating area of miscellaneous shapes,Calculating and comparing areas of similar polygons
+Geometry,Area,Applying the understanding of the area of a circle to solve problems,Deriving the relationship between the circumference and area of a circle
+Geometry,Area,Applying the understanding of the area of a circle to solve problems,Recalling and using the formulae for the area of a circle to solve problems
+Geometry,Area,Applying the understanding of the area of a circle to solve problems,Describing an informal argument for the formula for the area of a circle
+Geometry,Area,Applying geometric concepts in modelling,Applying concepts of density based on area in modeling situations
+Geometry,Basic geometry,Drawing and identifying geometric elements,"Drawing and identifying points, rays, lines and line segments"
+Geometry,Basic geometry,Drawing and identifying geometric elements,Drawing (freehand or with geometrical instruments) geometric shapes under given conditions
+Geometry,Basic geometry,Drawing and identifying geometric elements,Drawing (with technology) geometric shapes under given conditions
+Geometry,Basic geometry,Drawing and identifying geometric elements,Drawing and understanding skew lines and planes
+Geometry,Basic geometry,Drawing and identifying pairs of lines,Drawing and identifying parallel lines
+Geometry,Basic geometry,Drawing and identifying pairs of lines,Drawing and identifying perpendicular lines
+Geometry,Basic geometry,Drawing and identifying circles,"Knowing and identifying terms related to circles (centre, radius, diameter, circumference and semicircle)"
+Geometry,Basic geometry,Drawing and identifying circles,"Knowing and identifying line segments associated with circles (chord, secant and tangent)"
+Geometry,Basic geometry,Understanding key terms,"Knowing precise definitions of line segments, perpendicular lines and parallel lines"
+Geometry,Basic geometry,Understanding key terms,Identifying perpendicular lines and parallel lines in the context of planes
+Geometry,Basic geometry,Naming geometric elements,"Naming points, line segments, rays, lines and planes"
+Geometry,Basic geometry,Proving and using geometric properties,Proving that points on a perpendicular bisector of a line segment are equidistant from the segment’s endpoints
+Geometry,Basic geometry,Proving and using geometric properties,Using the perpendicular bisector theorem to solve problems
+Geometry,Basic geometry,Proving and using geometric properties,Proving that points on an angle bisector are equidistant from the arms of the angle
+Geometry,Basic geometry,Proving and using geometric properties,Using the angle bisector theorem to solve problems
+Geometry,Circles and conic sections,Defining key terms related to circles,Defining a circle as a locus
+Geometry,Circles and conic sections,Defining key terms related to circles,"Defining lines and line segments associated with circles (radius, diameter, chord, secant and tangent)"
+Geometry,Circles and conic sections,Defining key terms related to circles,Drawing and identifying types of tangents
+Geometry,Circles and conic sections,Defining key terms related to circles,Understanding the radian measure of an angle
+Geometry,Circles and conic sections,Defining key terms related to circles,Converting between radian and degree measures and vice versa
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Proving that all circles are similar
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Identifying and proving that the radius of a circle is perpendicular to the tangent at the point of contact
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,"Identifying and describing the relationships between central, inscribed and circumscribed angles"
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Identifying and proving that inscribed angles on a diameter are right angles
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,"Solving problems related to central, inscribed and circumscribed angles (including angle theorems)"
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Solving problems related to chords of circles (including chord theorems)
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Proving the properties of angles for a quadrilateral inscribed in a circle
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Deriving the fact that the length of the arc is proportional to the radius
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Solving problems related to arcs of circles (including arc theorems)
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Deriving the formula for the area of a sector of a circle
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Solving problems related to the area of a sector of a circle
+Geometry,Circles and conic sections,Understanding and applying theorems and properties about circles,Applying miscellaneous theorems and properties about circles to solve problems
+Geometry,Circles and conic sections,Deriving and using the equation of a circle,Deriving the equation of a circle of a given centre and radius
+Geometry,Circles and conic sections,Deriving and using the equation of a circle,Finding the centre and radius of a circle by completing the square when given an equation
+Geometry,Circles and conic sections,Deriving and using the equation of a circle,Solving problems related to the equation of a circle (including proofs and graphs)
+Geometry,Circles and conic sections,Understanding equations and properties about conic sections,Deriving the equation of a parabola given a focus and directrix
+Geometry,Circles and conic sections,Understanding equations and properties about conic sections,"Solving problems involving equations of parabolas, foci and directrixes"
+Geometry,Circles and conic sections,Understanding equations and properties about conic sections,Deriving the equation of an ellipse using the fact that the sum of distances from the foci is constant
+Geometry,Circles and conic sections,Understanding equations and properties about conic sections,Deriving the equation of a hyperbola using the fact that the difference of distances from the foci is constant
+Geometry,Congruency and similarity,Understanding congruency,Identifying congruent figures
+Geometry,Congruency and similarity,Understanding congruency,Reasoning how two figures are congruent using transformations
+Geometry,Congruency and similarity,Understanding congruency,Establishing the conditions necessary for two triangles to be congruent
+Geometry,Congruency and similarity,Understanding congruency,Explaining how the SSS criterion for triangle congruence follows from the definition of congruence
+Geometry,Congruency and similarity,Understanding congruency,Explaining how the SAS criterion for triangle congruence follows from the definition of congruence
+Geometry,Congruency and similarity,Understanding congruency,Explaining how the ASA criterion for triangle congruence follows from the definition of congruence
+Geometry,Congruency and similarity,Understanding congruency,Understanding how the hypotenuse-leg (HL) criterion for triangle congruence follows from the SAS criterion
+Geometry,Congruency and similarity,Understanding similarity,Identifying similar figures
+Geometry,Congruency and similarity,Understanding similarity,Describing a sequence of transformations to demonstrate similarity between two figures
+Geometry,Congruency and similarity,Understanding similarity,Establishing the conditions necessary for two triangles to be similar
+Geometry,Congruency and similarity,Understanding similarity,Explaining the AA criterion for triangle similarity using properties of transformations
+Geometry,Congruency and similarity,Understanding similarity,Understanding how the SSS criterion for triangle similarity follows from the AA criterion
+Geometry,Congruency and similarity,Understanding similarity,Explaining how the SAS criterion for triangle similarity follows from the AA criterion
+Geometry,Congruency and similarity,Applying congruency and/or similarity to solve problems,Using congruency criteria for triangles to solve problems
+Geometry,Congruency and similarity,Applying congruency and/or similarity to solve problems,Using congruency criteria to prove relationships in geometric figures
+Geometry,Congruency and similarity,Applying congruency and/or similarity to solve problems,Using similarity criteria for triangles to solve problems
+Geometry,Congruency and similarity,Applying congruency and/or similarity to solve problems,Using similarity criteria to prove relationships in geometric figures
+Geometry,Congruency and similarity,Applying congruency and/or similarity to solve problems,Using a combination of congruency and similarity to solve problems
+Geometry,Constructions,Performing constructions involving triangles,Constructing triangles where the lengths of the three sides are given
+Geometry,Constructions,Performing constructions involving triangles,Constructing triangles where a combination of side lengths and angles are given
+Geometry,Constructions,Performing constructions involving lines and/or line segments,Copying and/or bisecting a line segment
+Geometry,Constructions,Performing constructions involving lines and/or line segments,"Constructing a pair of perpendicular lines, including the perpendicular bisector of a line segment"
+Geometry,Constructions,Performing constructions involving lines and/or line segments,Constructing a line parallel to a given line through a point
+Geometry,Constructions,Performing constructions involving angles,Copying and/or bisecting an angle
+Geometry,Constructions,Performing constructions involving polygons,Constructing an equilateral triangle inscribed in a circle
+Geometry,Constructions,Performing constructions involving polygons,Constructing a square inscribed in a circle
+Geometry,Constructions,Performing constructions involving polygons,Constructing a regular hexagon inscribed in a circle
+Geometry,Constructions,Performing and using constructions involving circles,Constructing an inscribed circle of a triangle
+Geometry,Constructions,Performing and using constructions involving circles,Using the incenter of a triangle to solve geometric problems 
+Geometry,Constructions,Performing and using constructions involving circles,Constructing a circumscribed circle of a triangle
+Geometry,Constructions,Performing and using constructions involving circles,Using the circumcenter of a triangle to solve geometric problems 
+Geometry,Constructions,Performing and using constructions involving circles,Constructing a tangent line from a point to a circle
+Geometry,Coordinate geometry,Graphing whole number points in the coordinate plane,Understanding the abscissa and ordinate
+Geometry,Coordinate geometry,Graphing whole number points in the coordinate plane,Identifying and writing an ordered pair when a point is given on a graph
+Geometry,Coordinate geometry,Graphing whole number points in the coordinate plane,Representing mathematical problems by graphing points in the first quadrant
+Geometry,Coordinate geometry,Graphing whole number points in the coordinate plane,Representing real-world problems by graphing points in the first quadrant
+Geometry,Coordinate geometry,Graphing polygons in the coordinate plane,Drawing polygons in the coordinate plane when given the coordinates of its vertices
+Geometry,Coordinate geometry,Graphing polygons in the coordinate plane,Finding the length of a side of a polygon joining points with the same abscissa or same ordinate
+Geometry,Coordinate geometry,Graphing polygons in the coordinate plane,Applying graphing of polygons to solve problems
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Using coordinates to prove geometric theorems algebraically
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Finding a point on a line segment between two points that partitions the segment in a given ratio and vice versa
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Finding the midpoint of a line segment when given the coordinates of its end-points
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Applying the distance formula
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Using coordinates to compute perimeters of polygons
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Using coordinates to find the areas of triangles/rectangles
+Geometry,Coordinate geometry,Applying coordinates to different geometrical scenarios,Writing proofs using the coordinate plane along with other geometric concepts
+Geometry,Parallel lines,Understanding and using angles created when parallel lines are cut by a transversal,Understanding and using corresponding angles
+Geometry,Parallel lines,Understanding and using angles created when parallel lines are cut by a transversal,Understanding and using interior and exterior angles
+Geometry,Parallel lines,Understanding and using angles created when parallel lines are cut by a transversal,Understanding and using co-interior angles
+Geometry,Parallel lines,Proving properties of angles created when parallel lines are cut by a transversal,Proving that corresponding angles are equal (and its converse)
+Geometry,Parallel lines,Proving properties of angles created when parallel lines are cut by a transversal,Proving that alternate interior/exterior angles are equal (and their converses)
+Geometry,Parallel lines,Proving properties of angles created when parallel lines are cut by a transversal,Proving that co-interior angles are supplementary (and its converse)
+Geometry,Parallel lines,Applying the properties of angles created when parallel lines are cut by a transversal,Applying angle relationships between parallel lines to find angle measures in mathematical scenarios
+Geometry,Parallel lines,Applying the properties of angles created when parallel lines are cut by a transversal,Applying angle relationships between parallel lines to find angle measures and solve problems in real-life scenarios
+Geometry,Perimeter,Measuring and estimating perimeter,Understanding when perimeter is the quantity of interest involved in a scenario (including cases where contrasting it with area or volume)
+Geometry,Perimeter,Measuring and estimating perimeter,Solving problems involving perimeter of two-dimensional shapes (including irregular polygons)
+Geometry,Perimeter,Measuring and estimating perimeter,Applying the perimeter formula for squares and rectangles to solve problems
+Geometry,Perimeter,Measuring and estimating perimeter,Estimating the perimeter of two-dimensional composite shapes using a square grid
+Geometry,Perimeter,Applying the understanding of the circumference of a circle to solve problems,Finding the radius when given the diameter and vice versa
+Geometry,Perimeter,Applying the understanding of the circumference of a circle to solve problems,Recalling and using the formulae for the circumference of a circle to solve problems
+Geometry,Perimeter,Applying the understanding of the circumference of a circle to solve problems,Describing an informal argument for the formula for the circumference of a circle
+Geometry,Perimeter,Applying concepts in similarity to perimeter,Finding perimeters of similar polygons
+Geometry,Polygons,Identifying and classifying polygons,Identifying polygons with more than four sides
+Geometry,Polygons,Identifying and classifying polygons,Classifying polygons on the basis of their number of sides
+Geometry,Polygons,Understanding properties of polygons,Establishing and proving the angle sum property for the interior angles of a polygon
+Geometry,Polygons,Understanding properties of polygons,Establishing and proving the angle sum property for the exterior angles of a polygon
+Geometry,Polygons,Applying properties of polygons,Applying the angle sum property for the interior angles of a polygon
+Geometry,Polygons,Applying properties of polygons,Applying the angle sum property for the exterior angles of a polygon
+Geometry,Quadrilaterals,Understanding quadrilaterals,Identifying quadrilaterals
+Geometry,Quadrilaterals,Understanding quadrilaterals,Identifying right angles and/or parallel sides in quadrilaterals
+Geometry,Quadrilaterals,Understanding quadrilaterals,"recognizing and drawing rhombuses, rectangles and squares as quadrilaterals"
+Geometry,Quadrilaterals,Understanding quadrilaterals,"Drawing quadrilaterals that are not rhombuses, rectangles or squares"
+Geometry,Quadrilaterals,Understanding quadrilaterals,Proving and using the properties of angles for a quadrilateral
+Geometry,Quadrilaterals,Classifying quadrilaterals,Classifying quadrilaterals based on the presence or absence of parallel and/or perpendicular lines
+Geometry,Quadrilaterals,Classifying quadrilaterals,Classifying quadrilaterals on the basis of their angles and sides
+Geometry,Quadrilaterals,Classifying quadrilaterals,Classifying quadrilaterals in a hierarchy based on properties
+Geometry,Quadrilaterals,Understanding properties of parallelograms,"Proving basic properties related to sides, angles and diagonals in a parallelogram"
+Geometry,Quadrilaterals,Understanding properties of parallelograms,"Proving that squares, rectangles and rhombuses are special types of parallelograms"
+Geometry,Quadrilaterals,Applying properties of parallelograms,Applying properties related to angles and/or sides and/or diagonals in a parallelogram to solve geometric problems
+Geometry,Quadrilaterals,Applying properties of parallelograms,"Applying properties of special parallelograms (square, rectangle and rhombus) to solve geometric problems"
+Geometry,Quadrilaterals,Understanding and applying properties of trapezoids,Understanding properties related to the sides and/or angles of trapezoids
+Geometry,Quadrilaterals,Understanding and applying properties of trapezoids,Applying properties related to the sides and/or angles of trapezoids to solve problems
+Geometry,Quadrilaterals,Understanding and applying properties of trapezoids,Understanding and using the trapezoid midsegment theorem
+Geometry,Quadrilaterals,Understanding and applying properties of kites,Understanding properties related to the sides and/or angles of kites
+Geometry,Quadrilaterals,Understanding and applying properties of kites,Applying properties related to the sides and/or angles of kites to solve problems
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Describing/recognizing defining attributes of two-dimensional shapes
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Sorting two-dimensional shapes based on certain defining attributes
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Drawing shapes that possess certain defining attributes
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Combining two-dimensional shapes to create a composite shape
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Decomposing a two-dimensional shape
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Partitioning a rectangle into rows and columns of same-size squares
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,recognizing that equal shares of identical wholes need not have the same shape
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Understanding that shapes in different categories may share attributes
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Understanding that shared attributes can define a large category
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Partitioning shapes into parts with equal areas
+Geometry,Shapes,Reasoning with two-dimensional shapes and their attributes,Understanding that attributes belonging to a category of shapes also belong to all subcategories of that category
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Describing/recognizing defining attributes of three-dimensional shapes
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Sorting three-dimensional shapes based on certain defining attributes
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Drawing shapes that possess certain defining attributes
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Combining three-dimensional shapes to create a composite shape
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Decomposing a three-dimensional shape
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,"Finding the number of edges, vertices and faces of a three-dimensional solid"
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Describing the two-dimensional figures that result from slicing right rectangular prisms
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Describing the two-dimensional figures that result from slicing cylinders
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Describing the two-dimensional figures that result from slicing right rectangular pyramids
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Describing the two-dimensional figures that result from slicing cones
+Geometry,Shapes,Reasoning with three-dimensional shapes and their attributes,Identifying three-dimensional objects generated by rotations/revolutions of two-dimensional objects
+Geometry,Shapes,Understanding symmetry,recognizing a line of symmetry for a two-dimensional shape
+Geometry,Shapes,Understanding symmetry,Drawing lines of symmetry
+Geometry,Shapes,Understanding symmetry,Identifying line-symmetric shapes
+Geometry,Shapes,Understanding symmetry,Drawing line-symmetric shapes
+Geometry,Shapes,Applying geometric concepts in modelling,Using geometric shapes (including their measures and properties) to describe real-life objects
+Geometry,Shapes,Applying geometric concepts in modelling,Applying geometric methods to solve design problems
+Geometry,Surface area,Developing an understanding of surface area,Understanding when surface area is the quantity of interest involved in a scenario (including cases where contrasting it with perimeter or volume)
+Geometry,Surface area,Developing an understanding of surface area,"Understanding and using nets made up of triangles, rectangles and circles to represent three-dimensional solids"
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cubes and cuboids,Solving mathematical problems involving surface area of cubes and cuboids
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cubes and cuboids,Solving real-world problems involving surface area of cubes and cuboids
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cylinders,Solving mathematical problems involving surface area of cylinders
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cylinders,Solving real-world problems involving surface area of cylinders
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of prisms,Solving mathematical problems involving surface area of prisms
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of prisms,Solving real-world problems involving surface area of prisms
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of pyramids,Solving mathematical problems involving surface area of pyramids
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of pyramids,Solving real-world problems involving surface area of pyramids
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cones,Solving mathematical problems involving surface area of cones
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of cones,Solving real-world problems involving surface area of cones
+Geometry,Surface area,Solving mathematical and real-world problems involving surface area of composite solids,"Applying the formulae for the surface area of cylinders, prisms, pyramids and/or cones to real-world problems involving composite solids"
+Geometry,Transformations,Identifying transformations,Identifying translations
+Geometry,Transformations,Identifying transformations,Identifying reflections
+Geometry,Transformations,Identifying transformations,Identifying rotations
+Geometry,Transformations,Identifying transformations,Identifying dilations
+Geometry,Transformations,Identifying transformations,"Developing definitions of translations in terms of angles,
+circles, perpendicular lines, parallel lines and line segments"
+Geometry,Transformations,Identifying transformations,"Developing definitions of reflections in terms of angles,
+circles, perpendicular lines, parallel lines and line segments"
+Geometry,Transformations,Identifying transformations,"Developing definitions of rotations in terms of angles,
+circles, perpendicular lines, parallel lines and line segments"
+Geometry,Transformations,Performing transformations,Solving problems involving scaling of length
+Geometry,Transformations,Performing transformations,Solving problems involving scaling of area
+Geometry,Transformations,Performing transformations,Performing translations
+Geometry,Transformations,Performing transformations,Performing reflections
+Geometry,Transformations,Performing transformations,Performing rotations
+Geometry,Transformations,Performing transformations,Performing dilations
+Geometry,Transformations,Performing transformations,Performing multiple transformations
+Geometry,Transformations,Performing transformations,Using geometric descriptions of rigid motions to transform figures
+Geometry,Transformations,Performing transformations,Verifying (experimentally) that a dilation takes a line not passing through the center of the dilation to a parallel line
+Geometry,Transformations,Performing transformations,Verifying (experimentally) that a dilation leaves a line passing through the center unchanged
+Geometry,Transformations,Performing transformations,Verifying (experimentally) that a dilation of a line segment is longer or shorter in the ratio given by the scale factor
+Geometry,Transformations,Representing and comparing transformations,Describing transformations as functions that take points in the plane as inputs and give other points as outputs
+Geometry,Transformations,Representing and comparing transformations,Comparing transformations that preserve distance and angle to those that do not
+Geometry,Transformations,Describing effects of transformations,Describing the effect of multiple transformations on two-dimensional figures
+Geometry,Transformations,Describing effects of transformations,Describing the rotations and reflections that carry any polygon onto itself
+Geometry,Transformations,Describing effects of transformations,Predicting the effect of a rigid motion on a figure
+Geometry,Transformations,Understanding rotational symmetry,Identifying whether a shape possesses rotational symmetry or not
+Geometry,Transformations,Understanding rotational symmetry,Describing rotations (by angle) that map a shape onto itself
+Geometry,Triangles,Identifying and classifying triangles,Identifying triangles
+Geometry,Triangles,Identifying and classifying triangles,Classifying triangles on the basis of either their angles or sides
+Geometry,Triangles,Identifying and classifying triangles,"Knowing terms related to triangles (vertex, side, base, height etc.)"
+Geometry,Triangles,Understanding existence of triangles,"Understanding the conditions for the existence of triangles (unique triangle, more than one triangle, no triangle)"
+Geometry,Triangles,Understanding properties of triangles,Knowing and understanding properties pertaining to sums and differences of side lengths of triangles
+Geometry,Triangles,Understanding properties of triangles,Establishing and proving the angle sum property of triangles
+Geometry,Triangles,Understanding properties of triangles,Establishing and proving the exterior angle property of triangles
+Geometry,Triangles,Understanding properties of triangles,Proving theorems that relate side lengths to angle measures
+Geometry,Triangles,Understanding properties of triangles,Proving that the segment joining midpoints of two sides of a triangle is parallel to and half the length of the third side
+Geometry,Triangles,Understanding properties of triangles,Proving that the medians of a triangle meet at a point
+Geometry,Triangles,Understanding properties of triangles,Proving that the altitudes of a non-right triangle meet at a point
+Geometry,Triangles,Understanding properties of triangles,Proving that a line parallel to one side of a triangle divides the other two sides proportionally
+Geometry,Triangles,Understanding the Pythagorean theorem,Deriving the Pythagorean theorem and its converse (including using triangle similarity)
+Geometry,Triangles,Applying the Pythagorean theorem,Determining unknown side lengths in right triangles (both two-dimensions and three-dimensions)
+Geometry,Triangles,Applying the Pythagorean theorem,Applying the Pythagorean theorem (and/or its converse) to different geometric problems
+Geometry,Triangles,Applying properties of triangles,Applying the angle sum property of triangles
+Geometry,Triangles,Applying properties of triangles,Applying the exterior angle property of triangles
+Geometry,Triangles,Applying properties of triangles,Applying properties based on the relationship between side lengths and angle measures to solve geometric problems
+Geometry,Triangles,Applying properties of triangles,Applying properties related to medians to solve geometric problems
+Geometry,Triangles,Applying properties of triangles,Applying properties related to altitudes to solve geometric problems
+Geometry,Triangles,Applying properties of triangles,Applying the triangle midsegment theorem (intercept theorem or basic proportionality theorem) to solve geometric problems
+Geometry,Trigonometry,Defining and understanding trigonometric ratios,Understanding that side ratios in right triangles are properties of the angles in the triangle
+Geometry,Trigonometry,Defining and understanding trigonometric ratios,Defining the six fundamental ratios for acute angles
+Geometry,Trigonometry,Defining and understanding trigonometric ratios,Explaining and using the relationship between the sine and cosine of complementary angles
+Geometry,Trigonometry,Applying trigonometric ratios,Solving mathematical problems using trigonometric ratios in right triangles
+Geometry,Trigonometry,Applying trigonometric ratios,Solving real-world problems using trigonometric ratios in right triangles
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Solving multi-concept problems involving trigonometric ratios and other concepts in right triangles
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Deriving and using the formula for the area of a triangle in terms of sides and the sine ratio
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Proving the law of sines in triangles
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Proving the law of cosines in triangles
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Using the law of sines and/or cosines in right triangles to solve problems
+Geometry,Trigonometry,Applying trigonometric ratios along with other mathematical concepts,Using the law of sines and/or cosines in non-right triangles to solve problems
+Geometry,Volume,Measuring and estimating volume,Measuring volume using different metric units (litres and millilitres)
+Geometry,Volume,Measuring and estimating volume,Solving one-step word problems involving addition and/or subtraction of volume
+Geometry,Volume,Measuring and estimating volume,Solving one-step word problems involving multiplication and/or division of volume
+Geometry,Volume,Developing an understanding of volume,Knowing that a cube with side length 1 unit can be used to measure volume
+Geometry,Volume,Developing an understanding of volume,Understanding that a solid figure which can be fully packed by 'n' unit cubes has a volume of 'n' cubic units
+Geometry,Volume,Developing an understanding of volume,Measuring volume by counting unit cubes using different units
+Geometry,Volume,Developing an understanding of volume,Understanding when volume is the quantity of interest involved in a scenario (including cases where contrasting it with perimeter or area)
+Geometry,Volume,Developing an understanding of volume,Finding the volume of a right rectangular prism by packing it with unit cubes
+Geometry,Volume,Developing an understanding of volume,recognizing that the volume of a right rectangular prism is the product of its side lengths
+Geometry,Volume,Developing an understanding of volume,Finding volumes of solid figures by decomposing them into non-overlapping right rectangular prisms
+Geometry,Volume,Developing an understanding of volume,recognizing that volume is additive
+Geometry,Volume,Developing an understanding of volume,Applying the technique of decomposing figures to find volumes in real-world contexts
+Geometry,Volume,Measuring and estimating volume of cubes and cuboids,Solving mathematical problems involving volume of cubes and cuboids
+Geometry,Volume,Measuring and estimating volume of cubes and cuboids,Solving real-world problems involving volume of cubes and cuboids
+Geometry,Volume,Measuring and estimating volume of prisms,Solving mathematical problems involving volume of prisms
+Geometry,Volume,Measuring and estimating volume of prisms,Solving real-world problems involving volume of prisms
+Geometry,Volume,Measuring and estimating volume of pyramids,Solving mathematical problems involving volume of pyramids
+Geometry,Volume,Measuring and estimating volume of pyramids,Solving real-world problems involving volume of pyramids
+Geometry,Volume,Measuring and estimating volume of cylinders,Solving mathematical problems involving volume of cylinders
+Geometry,Volume,Measuring and estimating volume of cylinders,Solving real-world problems involving volume of cylinders
+Geometry,Volume,Measuring and estimating volume of cones,Solving mathematical problems involving volume of cones
+Geometry,Volume,Measuring and estimating volume of cones,Solving real-world problems involving volume of cones
+Geometry,Volume,Measuring and estimating volume of spheres,Solving mathematical problems involving volume of spheres
+Geometry,Volume,Measuring and estimating volume of spheres,Solving real-world problems involving volume of spheres
+Geometry,Volume,Measuring and estimating volume of miscellaneous shapes,"Applying the formulae for the volumes of cones, cylinders and spheres to real-world problems involving composite solids"
+Geometry,Volume,Measuring and estimating volume of cylinders,Describing an informal argument for the formula for the volume of a cylinder
+Geometry,Volume,Measuring and estimating volume of pyramids,Describing an informal argument for the formula for the volume of a pyramid
+Geometry,Volume,Measuring and estimating volume of cones,Describing an informal argument for the formula for the volume of a cone
+Geometry,Volume,Measuring and estimating volume of spheres,Describing an informal argument for the formula for the volume of a sphere using Cavalieri’s principle
+Geometry,Volume,Measuring and estimating volume of miscellaneous shapes,Calculating the volume of similar solids
+Geometry,Volume,Applying geometric concepts in modelling,Applying concepts of density based on volume in modeling situations
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 120),Counting to 120 by ones when starting at any number
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 120),Counting to 120 by tens when starting at any number
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 120),Reading and writing numbers up to 120
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 120),Representing a number of objects with a written numeral
+Numbers,Concepts in whole numbers,Understanding place value (two-digit numbers),Understanding that 10 can be thought of as a bundle of ten ones
+Numbers,Concepts in whole numbers,Understanding place value (two-digit numbers),"Understanding that numbers from 11 to 19 are composed of a ten and 1, 2, 3, 4, 5, 6, 7, 8 or 9 ones"
+Numbers,Concepts in whole numbers,Understanding place value (two-digit numbers),"Understanding that numbers 10, 20, 30, 40, 50, 60, 70, 80 and 90 refer to 1, 2, 3, 4, 5, 6, 7, 8 or 9 tens (and 0 ones)"
+Numbers,Concepts in whole numbers,Understanding place value (two-digit numbers),Representing whole numbers as lengths from 0 on a number line
+Numbers,Concepts in whole numbers,Understanding place value (three-digit numbers),Understanding that 100 can be thought of as a bundle of ten tens
+Numbers,Concepts in whole numbers,Understanding place value (three-digit numbers),"Understanding that numbers 100, 200, 300, 400, 500, 600, 700, 800 and 900 refer to 1, 2, 3, 4, 5, 6, 7, 8 or 9 hundreds (and 0 tens and 0 ones)"
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 1000),Counting to 1000 by ones or fives when starting at any number
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 1000),Counting to 1000 by tens or hundreds when starting at any number
+Numbers,Concepts in whole numbers,Extending the counting sequence (up to 1000),Identifying patterns to find missing numbers (up to 1000)
+Numbers,Concepts in whole numbers,Applying place value understanding (three-digit numbers),Reading and writing three-digit numbers using models
+Numbers,Concepts in whole numbers,Applying place value understanding (three-digit numbers),Reading and writing three-digit numbers using base-ten numerals
+Numbers,Concepts in whole numbers,Applying place value understanding (three-digit numbers),Reading and writing three-digit numbers using number names
+Numbers,Concepts in whole numbers,Applying place value understanding (three-digit numbers),Reading and writing three-digit numbers using the expanded form
+Numbers,Concepts in whole numbers,Applying place value understanding (above 1000),Identifying the value of a digit in whole numbers above 1000
+Numbers,Concepts in whole numbers,Applying place value understanding (above 1000),Reading and writing whole numbers above 1000 using base-ten numerals
+Numbers,Concepts in whole numbers,Applying place value understanding (above 1000),Reading and writing whole numbers above 1000 using number names
+Numbers,Concepts in whole numbers,Applying place value understanding (above 1000),Reading and writing whole numbers above 1000 using the expanded form
+Numbers,Concepts in whole numbers,Comparing whole numbers,"Comparing two two-digit numbers using the symbols >, = and <"
+Numbers,Concepts in whole numbers,Comparing whole numbers,"Comparing two three-digit numbers using the symbols >, = and <"
+Numbers,Concepts in whole numbers,Comparing whole numbers,"Comparing whole numbers above 1000 using the symbols >, = and <"
+Numbers,Concepts in whole numbers,Comparing whole numbers,Ordering whole numbers (including real-world contexts)
+Numbers,Concepts in whole numbers,Comparing whole numbers,Comparing the value of two identical digits in a whole number above 1000
+Numbers,Concepts in whole numbers,Rounding whole numbers,Rounding whole numbers to the nearest 10 or 100
+Numbers,Concepts in whole numbers,Rounding whole numbers,Rounding whole numbers above 1000 to any place
+Numbers,Concepts in whole numbers,Applying place value understanding (general),recognizing that a digit represents ten times what it represents in the place to its right
+Numbers,Concepts in whole numbers,Applying place value understanding (general),recognizing that a digit represents 1/10 of what it represents in the place to its left
+Numbers,Concepts in whole numbers,Applying place value understanding (general),Using whole number exponents to denote powers of 10
+Numbers,Concepts in whole numbers,Applying place value understanding (general),Explaining patterns in the number of zeros of the product when multiplying by powers of 10
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Using objects/drawings to add and subtract within 20 involving 'adding to' or 'putting together'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Using symbols to add and subtract within 20 involving 'adding to' or 'putting together'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Using objects/drawings to add and subtract within 20 involving 'taking from' or 'taking apart'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Using symbols to add and subtract within 20 involving 'taking from' or 'taking apart'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Adding and subtracting within 20 involving 'comparing' (how many more or fewer)
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Solving word problems involving addition of three numbers whose sum is less than or equal to 20
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Understanding and using subtraction as an unknown-addend problem
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Understanding the meaning of the equal sign
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Determining if equations involving addition and subtraction are true or false
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction within 20,Determining an unknown whole number in an addition or subtraction equation relating three whole numbers
+Numbers,Operations on whole numbers,Applying properties of operations to numbers within 20,Applying the associative property of addition
+Numbers,Operations on whole numbers,Applying properties of operations to numbers within 20,Applying the commutative property of addition
+Numbers,Operations on whole numbers,Applying properties of operations to numbers within 20,Applying the properties of adding zero or subtracting zero/all
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,Relating counting to addition and subtraction
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,Using the 'counting on' strategy to fluently add
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,Using the 'counting back' strategy to fluently subtract
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,Using strategies that 'make 10' to add and subtract
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,"Recalling, from memory, all sums of two one-digit numbers"
+Numbers,Operations on whole numbers,Fluently adding and subtracting within 20,Fluently adding and subtracting within 20 using mental strategies
+Numbers,Operations on whole numbers,Adding and subtracting whole numbers numbers between 20 and 100,Adding or subtracting two numbers using a number line
+Numbers,Operations on whole numbers,Adding and subtracting whole numbers numbers between 20 and 100,Adding two numbers using vertical addition (without grouping)
+Numbers,Operations on whole numbers,Adding and subtracting whole numbers numbers between 20 and 100,Adding two numbers using vertical addition (with grouping)
+Numbers,Operations on whole numbers,Adding and subtracting whole numbers numbers between 20 and 100,Subtracting multiples of 10 (10-90 range) from multiples of 10 (10-90 range) with a positive or zero difference
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction of numbers between 20 and 100,Using objects/drawings to add and subtract numbers between 20 and 100 involving 'adding to' or 'putting together'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction of numbers between 20 and 100,Using symbols to add and subtract numbers between 20 and 100 involving 'adding to' or 'putting together'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction of numbers between 20 and 100,Using objects/drawings to add and subtract numbers between 20 and 100 involving 'taking from' or 'taking apart'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction of numbers between 20 and 100,Using symbols to add and subtract numbers between 20 and 100 involving 'taking from' or 'taking apart'
+Numbers,Operations on whole numbers,Representing and solving problems involving addition and subtraction of numbers between 20 and 100,Adding and subtracting numbers between 20 and 100 involving 'comparing' (how many more or fewer)
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers between 20 and 100,Mentally finding 10 more or 10 less than a two-digit number
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers between 20 and 100,Fluently adding and subtracting using properties of operations
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers between 20 and 100,Fluently adding and subtracting using the relationship between addition and subtraction
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers between 20 and 100,Adding up to four two-digit numbers using different strategies
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Adding using concrete models or drawings
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Subtracting using concrete models or drawings
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Adding using place value strategies
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Subtracting using place value strategies
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Adding using properties of operations
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Subtracting using properties of operations
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Adding and/or subtracting using the relationship between addition and subtraction
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Understanding the need to make groups of 10 or 100 during addition
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Understanding the need to make groups of 10 or 100 during subtraction
+Numbers,Operations on whole numbers,Adding and subtracting three-digit whole numbers,Explaining why addition and subtraction strategies work
+Numbers,Operations on whole numbers,Fluently adding and subtracting three-digit whole numbers,Mentally finding 10 more or 10 less (or 100 more or 100 less) than a three-digit number
+Numbers,Operations on whole numbers,Fluently adding and subtracting three-digit whole numbers,Estimating sums and differences using rounding
+Numbers,Operations on whole numbers,Working with equal groups of objects to understand multiplication,Determining the number of objects in equal groups
+Numbers,Operations on whole numbers,Working with equal groups of objects to understand multiplication,Identifying whether a number (up to 20) is even or odd
+Numbers,Operations on whole numbers,Working with equal groups of objects to understand multiplication,Writing an equation to express a number (up to 20) as a sum of two addends
+Numbers,Operations on whole numbers,Working with equal groups of objects to understand multiplication,Using addition to find the total number of objects (up to 25 objects) arranged in rectangular arrays
+Numbers,Operations on whole numbers,Working with equal groups of objects to understand multiplication,Using arrays to solve word problems
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of numbers within 100,Finding products using arrays
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of numbers within 100,Interpreting products of whole numbers as groups
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of numbers within 100,Using multiplication to solve word problems
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of numbers within 100,Determining an unknown number in a multiplication equation relating three whole numbers
+Numbers,Operations on whole numbers,Representing and solving problems involving division of numbers within 100,Finding quotients using arrays
+Numbers,Operations on whole numbers,Representing and solving problems involving division of numbers within 100,Interpreting whole number quotients of division as equal shares
+Numbers,Operations on whole numbers,Representing and solving problems involving division of numbers within 100,Using division to solve word problems
+Numbers,Operations on whole numbers,Representing and solving problems involving division of numbers within 100,Determining an unknown number in a division equation relating three whole numbers
+Numbers,Operations on whole numbers,Representing and solving problems involving division of numbers within 100,Understanding and using division as an unknown-factor problem
+Numbers,Operations on whole numbers,Applying properties of multiplication and division,Applying the associative property of multiplication
+Numbers,Operations on whole numbers,Applying properties of multiplication and division,Applying the commutative property of multiplication
+Numbers,Operations on whole numbers,Applying properties of multiplication and division,Applying the distributive property of multiplication
+Numbers,Operations on whole numbers,Applying properties of multiplication and division,Applying properties of multiplication (multiplying by 0 or 1)
+Numbers,Operations on whole numbers,Applying properties of multiplication and division,"Applying properties of division (dividing 0 by any non-zero number, dividing by 1, dividing a number by itself)"
+Numbers,Operations on whole numbers,Fluently multiplying and dividing within 100,Multiplying one-digit whole numbers by multiples of 10 in the range 10–90
+Numbers,Operations on whole numbers,Fluently multiplying and dividing within 100,Fluently multiplying using a number line
+Numbers,Operations on whole numbers,Fluently multiplying and dividing within 100,Fluently multiplying and dividing using properties of operations
+Numbers,Operations on whole numbers,Fluently multiplying and dividing within 100,Fluently multiplying and dividing using the relationship between multiplication and division
+Numbers,Operations on whole numbers,Fluently multiplying and dividing within 100,"Recalling, from memory, all products of two one-digit numbers"
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers within 1000,Representing problems using equations with a letter for the unknown quantity
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers within 1000,recognizing the operation(s) to be performed when solving word problems
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers within 1000,Solving two-step word problems using the four basic operations
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers within 1000,Evaluating the reasonableness of answers using mental computation and estimation strategies
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers greater than 1000,Fluently adding numbers greater than 1000 using the standard algorithm
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers greater than 1000,Fluently subtracting numbers greater than 1000 using the standard algorithm
+Numbers,Operations on whole numbers,Fluently adding and subtracting numbers greater than 1000,Estimating sums and differences using rounding
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,"Explaining multiplication using equations, rectangular arrays and/or area models"
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Multiplying a whole number (up to four digits) by a one-digit whole number
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Multiplying two two-digit whole numbers
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Estimating products using rounding
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Interpreting a multiplication equation as an equivalent comparison
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Representing verbal statements of multiplicative comparisons as equations
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,"Distinguishing multiplicative comparison from additive
+comparison"
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Solving word problems involving multiplicative comparison
+Numbers,Operations on whole numbers,Representing and solving problems involving multiplication of multi-digit whole numbers,Fluently multiplying multi-digit whole numbers using the standard algorithm
+Numbers,Operations on whole numbers,Representing and solving problems involving division of multi-digit whole numbers,"Explaining division using equations, rectangular arrays and/or area models"
+Numbers,Operations on whole numbers,Representing and solving problems involving division of multi-digit whole numbers,Finding whole-number quotients and remainders with up to four-digit dividends and one-digit divisors
+Numbers,Operations on whole numbers,Representing and solving problems involving division of multi-digit whole numbers,Using division facts and the relationship between multiplication and division to estimate quotients
+Numbers,Operations on whole numbers,Representing and solving problems involving division of multi-digit whole numbers,Dividing multi-digit whole numbers with two-digit divisors (including word problems)
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers greater than 1000,Representing problems using equations with a letter for the unknown quantity
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers greater than 1000,Solving multi-step word problems (involving only addition and/or subtraction and/or multiplication)
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers greater than 1000,Solving multi-step word problems where division is involved (no remainders)
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers greater than 1000,Solving multi-step word problems where division is involved (with remainders)
+Numbers,Operations on whole numbers,Representing and solving problems involving mixed operations on numbers greater than 1000,Evaluating the reasonableness of answers using mental computation and estimation strategies
+Numbers,Concepts in fractions,Developing an understanding of fractions,"Describing shares and wholes using the words 'half', 'halves', 'fourths' and 'quarters'"
+Numbers,Concepts in fractions,Developing an understanding of fractions,Describing shares and wholes using the word 'thirds'
+Numbers,Concepts in fractions,Developing an understanding of fractions,Identifying shapes that show halves or quarters/fourths
+Numbers,Concepts in fractions,Developing an understanding of fractions,Identifying shapes that show thirds
+Numbers,Concepts in fractions,Developing an understanding of fractions,Dividing standard shapes into halves or quarters/fourths
+Numbers,Concepts in fractions,Developing an understanding of fractions,Dividing standard shapes into thirds
+Numbers,Concepts in fractions,Developing an understanding of fractions,Expressing areas of parts of shapes as fractions
+Numbers,Concepts in fractions,Developing an understanding of fractions,Understanding a unit fraction as the quantity formed by 1 part when a whole is partitioned into equal parts
+Numbers,Concepts in fractions,Developing an understanding of fractions,Understanding a fraction 'a/b' as the quantity formed by 'a' parts of size '1/b'
+Numbers,Concepts in fractions,Developing an understanding of fractions,Representing a fraction '1/b' on a number line
+Numbers,Concepts in fractions,Developing an understanding of fractions,Representing a fraction 'a/b' on a number line
+Numbers,Concepts in fractions,Developing an understanding of fractions,Expressing whole numbers as fractions and vice versa
+Numbers,Concepts in fractions,Comparing and ordering fractions,recognizing that comparisons are valid only when referring to the same whole
+Numbers,Concepts in fractions,Comparing and ordering fractions,"Comparing two fractions with the same numerator using the symbols >, = and <"
+Numbers,Concepts in fractions,Comparing and ordering fractions,"Comparing two fractions with the same denominator using the symbols >, = and <"
+Numbers,Concepts in fractions,Comparing and ordering fractions,Ordering three or more fractions with either the same numerator or the same denominator
+Numbers,Concepts in fractions,Comparing and ordering fractions,Comparing two fractions with different numerators and denominators using benchmarks
+Numbers,Concepts in fractions,Comparing and ordering fractions,Comparing two fractions with different numerators and denominators using equivalent fractions
+Numbers,Concepts in fractions,Comparing and ordering fractions,Ordering three or more fractions with different numerators and denominators
+Numbers,Concepts in fractions,Understanding equivalence of fractions,Understanding when two fractions are equivalent
+Numbers,Concepts in fractions,Understanding equivalence of fractions,recognizing equivalent fractions
+Numbers,Concepts in fractions,Understanding equivalence of fractions,Understanding why a fraction 'a/b' is equivalent to a fraction '(n × a)/(n × b)' by using visual models
+Numbers,Concepts in fractions,Applying equivalence of fractions,Generating equivalent fractions by multiplication or division
+Numbers,Concepts in fractions,Applying equivalence of fractions,Writing fractions in their simplest form
+Numbers,Concepts in fractions,Applying equivalence of fractions,Writing two or more fractions using a common denominator
+Numbers,Operations on fractions,Building and decomposing fractions,Understanding addition of fractions as joining parts referring to the same whole
+Numbers,Operations on fractions,Building and decomposing fractions,Understanding subtraction of fractions as separating parts referring to the same whole
+Numbers,Operations on fractions,Building and decomposing fractions,Decomposing a fraction into a sum of fractions with the same denominator
+Numbers,Operations on fractions,Building and decomposing fractions,Converting a mixed number to an improper fraction and vice versa
+Numbers,Operations on fractions,Adding and subtracting like fractions,Adding and/or subtracting like fractions
+Numbers,Operations on fractions,Adding and subtracting like fractions,Adding and/or subtracting mixed numbers with like denominators
+Numbers,Operations on fractions,Adding and subtracting like fractions,Solving word problems involving addition and/or subtraction of like fractions referring to the same whole 
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Adding two fractions with respective denominators as 10 and 100
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Solving problems involving addition and/or subtraction of fractions by using information presented in line plots
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Adding and/or subtracting unlike fractions
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Adding and/or subtracting mixed numbers with unlike denominators
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Solving word problems involving addition and/or subtraction of unlike fractions referring to the same whole 
+Numbers,Operations on fractions,Adding and subtracting unlike fractions,Evaluating the reasonableness of answers using benchmark fractions and number sense of fractions
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Understanding a fraction 'a/b' as a multiple of '1/b'
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Understanding a multiple of 'a/b' as a multiple of '1/b'
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Multiplying a fraction or mixed number by a whole number
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Solving word problems involving multiplication of a fraction or mixed number by a whole number
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Interpreting the product '(a/b) × q' as 'a' parts of a partition of 'q' into 'b' equal parts (including visual models)
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Finding the area of a rectangle with fractional side lengths by tiling (including recognizing the area formula)
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Comparing the size of a product of fractions to one of the fractions based on their relative sizes without actual multiplication
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Understanding and explaining why multiplying a number by a fraction greater than 1 results in a product greater than the number
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Understanding and explaining why multiplying a number by a fraction lesser than 1 results in a product lesser than the number
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Multiplying two or more fractions or mixed numbers
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Solving real-world problems involving multiplication of fractions and mixed numbers
+Numbers,Operations on fractions,Multiplying fractions and/or mixed numbers,Solving problems involving multiplication of fractions by using information presented in line plots
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Interpreting a fraction as division of the numerator by the denominator
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Solving word problems involving division of whole numbers leading to fractional or mixed number answers
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Calculating and interpreting the quotient of the division of a unit fraction by a non-zero whole number
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Calculating and interpreting the quotient of the division of a non-zero whole number by a unit fraction
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Solving real-world problems involving division of unit fractions by whole numbers
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Solving real-world problems involving division of whole numbers by unit fractions
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Solving problems involving division of fractions by using information presented in line plots
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Calculating quotients when non-unit fractions are divided by whole numbers
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Calculating quotients when whole numbers are divided by non-unit fractions
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Calculating quotients when fractions/mixed numbers are divided by other fractions/mixed numbers
+Numbers,Operations on fractions,Dividing fractions and/or mixed numbers,Solving real-world problems involving division of fractions/mixed numbers by fractions/mixed numbers
+Numbers,Factors and multiples,Understanding factors and multiples,Identifying whether a number (greater than 20) is even or odd
+Numbers,Factors and multiples,Understanding factors and multiples,Finding all factor pairs for a one-digit or two-digit number
+Numbers,Factors and multiples,Understanding factors and multiples,Determining if a whole number between 1 and 100 is a multiple of a given one-digit number
+Numbers,Factors and multiples,Understanding factors and multiples,recognizing that a whole number is a multiple of each of its factors
+Numbers,Factors and multiples,Understanding factors and multiples,Finding the first 'n' multiples of a given number
+Numbers,Factors and multiples,Understanding factors and multiples,Determining if a whole number between 1 and 100 is a prime or composite number
+Numbers,Factors and multiples,Understanding factors and multiples,Finding all factors for numbers greater than 100
+Numbers,Factors and multiples,Understanding factors and multiples,Determining if a number greater than 100 is a prime or composite number
+Numbers,Factors and multiples,Understanding factors and multiples,Using the distributive property to express a sum of two whole numbers with a common factor as a multiple of a sum of two whole numbers with no common factor
+Numbers,Factors and multiples,Calculating the greatest common factor (GCF),Solving mathematical problems on the greatest common factor (GCF or GCD or HCF)
+Numbers,Factors and multiples,Calculating the greatest common factor (GCF),Solving real-world problems on the greatest common factor (GCF or GCD or HCF)
+Numbers,Factors and multiples,Calculating the least common multiple (LCM),Solving mathematical problems on the least common multiple (LCM)
+Numbers,Factors and multiples,Calculating the least common multiple (LCM),Solving real-world problems on the least common multiple (LCM)
+Numbers,Patterns,Identifying and explaining patterns in arithmetic,Identifying patterns in the addition and multiplication tables
+Numbers,Patterns,Identifying and explaining patterns in arithmetic,Explaining patterns using the properties of operations
+Numbers,Patterns,Generating and analysing patterns,Generating a number pattern that follows a given rule
+Numbers,Patterns,Generating and analysing patterns,Generating a shape pattern that follows a given rule
+Numbers,Patterns,Generating and analysing patterns,Analysing features of a pattern that are not explicit in the rule
+Numbers,Patterns,Generating and analysing patterns,Identifying apparent relationships between corresponding terms of two numerical patterns
+Numbers,Patterns,Generating and analysing patterns,Forming and graphing ordered pairs of corresponding terms of two numerical patterns
+Numbers,Concepts in decimal numbers,Relating decimal numbers and fractions,Expressing fractions (with denominator 10 or 100) as decimal numbers and vice versa
+Numbers,Concepts in decimal numbers,Relating decimal numbers and fractions,Expressing fractions (denominators not powers of 10) as decimal numbers and vice versa
+Numbers,Concepts in decimal numbers,Comparing decimal numbers,recognizing that comparisons are valid only when referring to the same whole
+Numbers,Concepts in decimal numbers,Comparing decimal numbers,"Compare two decimal numbers to tenths or hundredths using the symbols >, = and <"
+Numbers,Concepts in decimal numbers,Comparing decimal numbers,"Comparing two decimal numbers to thousandths using the symbols >, = and <"
+Numbers,Concepts in decimal numbers,Comparing decimal numbers,Ordering decimal numbers (including real-world contexts)
+Numbers,Concepts in decimal numbers,Applying place value understanding (decimal numbers),Explaining patterns in the placement of the decimal point when multiplying or dividing by powers of 10
+Numbers,Concepts in decimal numbers,Applying place value understanding (decimal numbers),Reading and writing decimal numbers to thousandths using base-ten numerals
+Numbers,Concepts in decimal numbers,Applying place value understanding (decimal numbers),Reading and writing decimal numbers to thousandths using number names
+Numbers,Concepts in decimal numbers,Applying place value understanding (decimal numbers),Reading and writing decimal numbers to thousandths using the expanded form
+Numbers,Concepts in decimal numbers,Applying place value understanding (decimal numbers),Using place value understanding to round decimal numbers to any place
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Adding decimal numbers using concrete models or drawings
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Subtracting decimal numbers using concrete models or drawings
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Adding decimal numbers using place value strategies
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Subtracting decimal numbers using place value strategies
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Adding decimal numbers using properties of operations
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Subtracting decimal numbers using properties of operations
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Estimating sums and differences using rounding
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Evaluating reasonableness of answers obtained on adding and/or subtracting decimal numbers
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Adding decimal numbers using the standard algorithm
+Numbers,Operations on decimal numbers,Adding and subtracting decimal numbers,Subtracting decimal numbers using the standard algorithm
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Multiplying decimal numbers using place value strategies
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Dividing decimal numbers using place value strategies
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Multiplying decimal numbers using properties of operations
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Dividing decimal numbers using properties of operations
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Estimating products and quotients using rounding
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Evaluating reasonableness of answers obtained on multiplying and/or dividing decimal numbers
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Multiplying decimal numbers using the standard algorithm
+Numbers,Operations on decimal numbers,Multiplying and dividing decimal numbers,Dividing decimal numbers using the standard algorithm
+Numbers,Operations on decimal numbers,Solving problems involving adding and/or subtracting decimal numbers,Solving problems involving adding and/or subtracting multi-digit decimal numbers
+Numbers,Operations on decimal numbers,Solving problems involving multiplying and/or dividing decimal numbers,Solving problems involving multiplying and/or dividing multi-digit decimal numbers
+Numbers,Operations on decimal numbers,Solving problems involving mixed operations,"Solving problems involving a mix of adding, subtracting, multiplying and dividing multi-digit decimal numbers"
+Numbers,Numerical expressions,Writing and evaluating numerical expressions without exponents,"Evaluating numerical expressions with multiple operations (with/without parentheses, brackets or braces)"
+Numbers,Numerical expressions,Writing and evaluating numerical expressions without exponents,Writing numerical expressions
+Numbers,Numerical expressions,Writing and evaluating numerical expressions without exponents,Interpreting numerical expressions without performing calculations
+Numbers,Numerical expressions,Writing and evaluating numerical expressions involving exponents that are whole numbers,Writing numerical expressions involving exponents
+Numbers,Numerical expressions,Writing and evaluating numerical expressions involving exponents that are whole numbers,Evaluating numerical expressions involving exponents
+Numbers,Numerical expressions,Solving mathematical and real-world problems involving all forms of rational numbers,Solving mathematical problems involving all forms of rational numbers
+Numbers,Numerical expressions,Solving mathematical and real-world problems involving all forms of rational numbers,Solving real-world problems involving all forms of rational numbers
+Numbers,Numerical expressions,Solving mathematical and real-world problems involving all forms of rational numbers,Evaluating the reasonableness of answers using mental computation and estimation strategies
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Understanding and using the product law of exponents
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Understanding and using the quotient law of exponents
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Understanding and using the power law of exponents
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Applying the laws of exponents to numerical expressions (only exponents > 0)
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Understanding and using zero and negative exponents
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (integral exponents),Applying the laws of exponents to numerical expressions (including exponents ≤ 0)
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (rational exponents),Understanding that the definition of rational exponents follows from extending understanding of integer exponents
+Numbers,Numerical expressions,Understanding and applying the laws of exponents to numerical expressions (rational exponents),Simplifying expressions involving rational exponents using the laws of exponents
+Numbers,Ratio and proportion,"Understanding ratio notation, rate language and unit rates",Expressing ratio relationships between quantities (words or pictures) using ratio language
+Numbers,Ratio and proportion,"Understanding ratio notation, rate language and unit rates",Expressing ratio relationships as unit rates using rate language
+Numbers,Ratio and proportion,"Understanding ratio notation, rate language and unit rates",Calculating unit rates associated with ratios of fractions
+Numbers,Ratio and proportion,Understanding and applying equivalent ratios,Comparing two or more ratios
+Numbers,Ratio and proportion,Understanding and applying equivalent ratios,Identifying if two or more ratios are equivalent using tables
+Numbers,Ratio and proportion,Understanding and applying equivalent ratios,"Applying the understanding of equivalent ratios to tables, tape diagrams, double number lines and word problems"
+Numbers,Ratio and proportion,Applying ratio and rate reasoning to solve mathematical and real-world problems,Applying ratio and rate reasoning to solve problems involving unit rates (including graphing relationships)
+Numbers,Ratio and proportion,Applying ratio and rate reasoning to solve mathematical and real-world problems,Applying ratio reasoning to units of measurement (including conversions and manipulations)
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Expressing fractions as percentages and vice versa
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Expressing decimal numbers as percentages and vice versa
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Expressing ratios as percentages and vice versa
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Finding a percentage of a quantity
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Finding what percentage of a quantity is another quantity
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Finding the original quantity if the percentage and the resultant quantity are given
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,Applying the understanding of percentages to solve real-world problems
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,"Comparing and ordering fractions, decimals and percents"
+Numbers,Ratio and proportion,Understanding and applying percentages of quantities,"Applying comparison of fractions, decimals and percents to solve problems"
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Determining whether two quantities or ratios form a proportion
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Determining the constant of proportionality using tables
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Determining the constant of proportionality using graphs/diagrams
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Determining the constant of proportionality using equations
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Representing proportional relationships using equations (including scaling)
+Numbers,Ratio and proportion,recognizing and representing proportional relationships between quantities,Understanding graphical representations of proportional relationships when situated in a context
+Numbers,Ratio and proportion,Applying proportional relationships to solve multi-step problems,Applying proportional relationships to solve multi-step problems involving percentages and/or ratios
+Numbers,Concepts in integers,Understanding integers,Developing an intuitive understanding of positive and negative numbers to describe quantities having opposite directions using real-world examples
+Numbers,Concepts in integers,Understanding integers,recognizing integers opposite in sign on a number line
+Numbers,Concepts in integers,Understanding integers,recognizing pairs of integers as ordered pairs that indicate locations in quadrants
+Numbers,Concepts in integers,Understanding integers,Representing integers on a horizontal or vertical number line diagram
+Numbers,Concepts in integers,Understanding integers,Representing pairs of integers on a number plane
+Numbers,Concepts in integers,Understanding integers,Solving mathematical and real-world problems by graphing integer points in all four quadrants of the coordinate plane
+Numbers,Concepts in integers,Comparing and ordering integers,Comparing integers (with and without number lines)
+Numbers,Concepts in integers,Comparing and ordering integers,Interpreting statements of inequality as statements about the relative positions of two integers on a number line
+Numbers,Concepts in integers,Comparing and ordering integers,Ordering integers (including real-world contexts)
+Numbers,Operations on integers,Adding and subtracting integers,Describing situations in which opposite quantities combine to make zero
+Numbers,Operations on integers,Adding and subtracting integers,Adding two or more integers (including interpreting sums in real-world contexts)
+Numbers,Operations on integers,Adding and subtracting integers,Understanding the concept of additive inverses in the context of integers
+Numbers,Operations on integers,Adding and subtracting integers,Understanding the representation of p + q on a number line where p and q are integers
+Numbers,Operations on integers,Adding and subtracting integers,Subtracting two or more integers (including interpreting differences in real-world contexts)
+Numbers,Operations on integers,Adding and subtracting integers,Calculating the distance between two integers as the absolute value of their difference (including interpreting differences in real-world contexts)
+Numbers,Operations on integers,Adding and subtracting integers,Applying properties of operations as strategies to add and subtract integers
+Numbers,Operations on integers,Multiplying and dividing integers,Applying prior understanding of properties of multiplication to multiply integers (including interpreting products in real-world contexts)
+Numbers,Operations on integers,Multiplying and dividing integers,Applying prior understanding of properties of division to divide integers (including interpreting quotients in real-world contexts)
+Numbers,Operations on integers,Multiplying and dividing integers,Applying properties of operations as strategies to multiply and divide integers
+Numbers,Operations on integers,Applying operations on integers to solve mathematical and real-world problems,Solving problems involving multiple operations on integers
+Numbers,Concepts in rational numbers,Understanding rational numbers,recognizing rational numbers opposite in sign on a number line
+Numbers,Concepts in rational numbers,Understanding rational numbers,recognizing pairs of rational numbers as ordered pairs that indicate locations in quadrants
+Numbers,Concepts in rational numbers,Understanding rational numbers,Representing rational numbers on a horizontal or vertical number line diagram
+Numbers,Concepts in rational numbers,Understanding rational numbers,Representing pairs of rational numbers on a number plane
+Numbers,Concepts in rational numbers,Understanding rational numbers,Solving mathematical and real-world problems by graphing points with rational number coordinates in all four quadrants of the coordinate plane
+Numbers,Concepts in rational numbers,Comparing and ordering rational numbers,Comparing rational numbers (with and without number lines)
+Numbers,Concepts in rational numbers,Comparing and ordering rational numbers,Interpreting statements of inequality as statements about the relative positions of two rational numbers on a number line
+Numbers,Concepts in rational numbers,Comparing and ordering rational numbers,Ordering rational numbers (including real-world contexts)
+Numbers,Concepts in rational numbers,Comparing and ordering rational numbers,Understanding and applying the meaning of the absolute value of a rational number (including real-world contexts)
+Numbers,Concepts in rational numbers,Comparing and ordering rational numbers,Differentiating between comparisons of absolute value and statements about the order of rational numbers
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Adding two or more rational numbers (including interpreting sums in real-world contexts)
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Understanding the concept of additive inverses in the context of rational numbers
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Understanding the representation of p + q on a number line where p and q are rational numbers
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Subtracting two or more rational numbers (including interpreting differences in real-world contexts)
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Calculating the distance between two rational numbers as the absolute value of their difference (including interpreting differences in real-world contexts)
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Applying properties of operations as strategies to add and subtract rational numbers
+Numbers,Operations on rational numbers,Adding and subtracting rational numbers,Explaining/demonstrating why the sum or difference of two rational numbers is rational
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Applying prior understanding of properties of multiplication to multiply rational numbers (including interpreting products in real-world contexts)
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Applying prior understanding of properties of division to divide two rational numbers (including interpreting quotients in real-world contexts)
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Applying properties of operations as strategies to multiply and divide rational numbers
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Converting a rational number to a decimal number using division and vice versa
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Understanding patterns in the decimal form of a rational number (either terminates in zeroes or eventually repeats)
+Numbers,Operations on rational numbers,Multiplying and dividing rational numbers,Explaining/demonstrating why the product or quotient of two rational numbers is rational
+Numbers,Operations on rational numbers,Applying operations on rational numbers to solve mathematical and real-world problems,"Evaluating expressions involving a mix of addition, subtraction, multiplication and/or division of rational numbers"
+Numbers,Operations on rational numbers,Applying operations on rational numbers to solve mathematical and real-world problems,Solving problems involving multiple operations on rational numbers
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Classifying different subsets of real numbers
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Defining irrational numbers
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Locating irrational numbers (approximately) on a number line
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Using rational approximations to compare irrational numbers
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Estimating the value of expressions involving irrational numbers
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Knowing that numbers such as √2 are irrational
+Numbers,Concepts in irrational numbers,Understanding irrational numbers,Writing a radical in its simplest form
+Numbers,Operations on irrational numbers,Adding and subtracting irrational numbers,Explaining/demonstrating why the sum or difference of a rational and irrational number is irrational
+Numbers,Operations on irrational numbers,Adding and subtracting irrational numbers,Adding and/or subtracting radicals
+Numbers,Operations on irrational numbers,Multiplying and dividing irrational numbers,Explaining why the product or quotient of a rational and irrational number is irrational
+Numbers,Operations on irrational numbers,Multiplying and dividing irrational numbers,Multiplying and/or dividing radicals
+Numbers,Operations on irrational numbers,Solving problems involving mixed operations on radicals,Simplifying multi-operation expressions involving radicals (including denominator rationalisation)
+Numbers,Scientific notation,Understanding and writing numbers in scientific notation,Converting scientific notation to standard form and vice versa
+Numbers,Scientific notation,Understanding and writing numbers in scientific notation,Writing very large or very small quantities using scientific notation
+Numbers,Scientific notation,Understanding and writing numbers in scientific notation,Interpreting scientific notation that has been generated by technology
+Numbers,Scientific notation,Estimating quantities and units using scientific notation,Estimating very large or very small quantities using scientific notation
+Numbers,Scientific notation,Estimating quantities and units using scientific notation,Choosing units of appropriate size for measuring very large or very small quantities
+Numbers,Scientific notation,Applying operations on numbers expressed using scientific notation to solve mathematical and real-world problems,Performing addition and/or subtraction with numbers expressed in the scientific notation
+Numbers,Scientific notation,Applying operations on numbers expressed using scientific notation to solve mathematical and real-world problems,Performing multiplication and/or division with numbers expressed in the scientific notation
+Numbers,Scientific notation,Applying operations on numbers expressed using scientific notation to solve mathematical and real-world problems,Performing multiple operations with numbers expressed in the scientific notation
+Numbers,Scientific notation,Applying operations on numbers expressed using scientific notation to solve mathematical and real-world problems,Solving real-world problems involving scientific notation
+Numbers,Concepts in complex numbers,Understanding and using complex number notation,Knowing the existence of a complex number i and that i^2 = –1
+Numbers,Concepts in complex numbers,Understanding and using complex number notation,Understanding that every complex number has the form of a + bi where a and b are real numbers
+Numbers,Concepts in complex numbers,Understanding and using complex number notation,Finding the square root of a negative number
+Numbers,Concepts in complex numbers,Representing complex numbers,Representing complex numbers in the rectangular form
+Numbers,Concepts in complex numbers,Representing complex numbers,Representing complex numbers in the polar form
+Numbers,Concepts in complex numbers,Representing complex numbers,Understanding why the rectangular and polar forms of a complex number represent the same number
+Numbers,Concepts in complex numbers,Representing complex numbers,Understanding equality of two or more complex numbers
+Numbers,Concepts in complex numbers,Representing complex numbers,Finding the modulus and/or argument of a complex number
+Numbers,Concepts in complex numbers,Understanding and applying conjugates of complex numbers,Finding the conjugate of a complex number
+Numbers,Concepts in complex numbers,Understanding and applying conjugates of complex numbers,Representing conjugation of complex numbers geometrically on the complex plane
+Numbers,Operations on complex numbers,Adding and subtracting complex numbers,"Using different properties (commutative, associative) to add and/or subtract complex numbers"
+Numbers,Operations on complex numbers,Adding and subtracting complex numbers,Representing addition and subtraction of complex numbers geometrically on the complex plane
+Numbers,Operations on complex numbers,Multiplying complex numbers,"Using i^2 = –1 and different properties (commutative, associative, distributive) to multiply complex numbers (including cases where addition/subtraction are involved)"
+Numbers,Operations on complex numbers,Multiplying complex numbers,Representing multiplication of complex numbers geometrically on the complex plane
+Numbers,Operations on complex numbers,Understanding and applying conjugates of complex numbers,Applying conjugates to find quotients
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,Calculating the distance between complex numbers
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,Finding the midpoint of a segment connecting two complex numbers
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,Extending algebraic polynomial identities to complex numbers
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,Knowing the Fundamental Theorem of Algebra
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,Showing that the Fundamental Theorem of Algebra is true for quadratic polynomials
+Numbers,Operations on complex numbers,Applying properties of operations on complex numbers to solve problems,"Solving problems involving a mix of addition, subtraction, multiplication and/or division of complex numbers"
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",recognizing vector quantities as having both magnitude and direction
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",Finding the magnitude and/or direction of a vector
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",Representing vector quantities geometrically (directed line segments) and algebraically (using appropriate symbols)
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",Finding the components of a vector
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",Solving problems involving unit vectors
+Numbers,Concepts in vectors,"Understanding, representing and using vectors",Solving real-life problems involving vector quantities (excluding operations)
+Numbers,Operations on vectors,Adding and subtracting vectors,Adding vectors end-to-end using the triangle law (including determining magnitude and direction of the resultant vector)
+Numbers,Operations on vectors,Adding and subtracting vectors,Adding vectors component-wise (including determining magnitude and direction of the resultant vector)
+Numbers,Operations on vectors,Adding and subtracting vectors,Understanding that the magnitude of the sum of two vectors is different from the sum of the magnitudes of the vectors
+Numbers,Operations on vectors,Adding and subtracting vectors,Understanding vector subtraction in terms of adding the additive inverse
+Numbers,Operations on vectors,Adding and subtracting vectors,Subtracting vectors end-to-end using the triangle law (including determining magnitude and direction of the resultant vector)
+Numbers,Operations on vectors,Adding and subtracting vectors,Subtracting vectors component-wise (including determining magnitude and direction of the resultant vector)
+Numbers,Operations on vectors,Multiplying vectors and scalars,Representing scalar multiplication graphically
+Numbers,Operations on vectors,Multiplying vectors and scalars,Performing scalar multiplication component-wise (including determining magnitude and direction of the resultant vector)
+Numbers,Operations on vectors,Multiplying vectors,Solving problems involving the dot product
+Numbers,Operations on vectors,Multiplying vectors,Solving problems involving the cross product
+Numbers,Operations on vectors,Solving problems involving operations on vectors,"Solving problems involving one or more of addition, subtraction and multiplication of vectors"
+Numbers,Matrices,Understanding and using matrices,Knowing terminology associated with matrices
+Numbers,Matrices,Understanding and using matrices,Knowing types of matrices
+Numbers,Matrices,Understanding and using matrices,Finding the transpose of a matrix
+Numbers,Matrices,Understanding and using matrices,Representing and manipulating data through matrices
+Numbers,Matrices,Adding and subtracting matrices,Understanding the role of the zero matrix in matrix addition/subtraction
+Numbers,Matrices,Adding and subtracting matrices,Adding and/or subtracting matrices of appropriate dimensions
+Numbers,Matrices,Multiplying matrices,Multiplying matrices by scalars
+Numbers,Matrices,Multiplying matrices,Understanding the role of the identity matrix in matrix multiplication
+Numbers,Matrices,Multiplying matrices,Multiplying two matrices of appropriate dimensions
+Numbers,Matrices,Multiplying matrices,Understanding that matrix multiplication is not commutative
+Numbers,Matrices,Multiplying matrices,Understanding that matrix multiplication is associative and distributive
+Numbers,Matrices,Multiplying matrices,Multiplying a vector (column matrix) by a matrix to produce another vector
+Numbers,Matrices,Multiplying matrices,Using matrix multiplication to transform vectors (column matrices)
+Numbers,Matrices,Solving problems involving mixed operations,"Solving problems involving a mix of addition, subtraction and/or multiplication of matrices"
+Numbers,Matrices,Understanding and applying determinants,Finding the determinant of a matrix
+Numbers,Matrices,Understanding and applying determinants,Finding the inverse of a matrix (if it exists)
+Numbers,Matrices,Understanding and applying determinants,Understanding the conditions for the determinant of a square matrix to be non-zero
+Numbers,Matrices,Understanding and applying determinants,Interpreting the absolute value of the determinant in terms of area
+Measurement,Length,Measuring lengths indirectly and by iterating length units,Comparing the lengths of two objects using a third object
+Measurement,Length,Measuring lengths indirectly and by iterating length units,Ordering three objects by length
+Measurement,Length,Measuring lengths indirectly and by iterating length units,recognizing that the length of an object is the number of same-size length units that span it with no gaps or overlaps
+Measurement,Length,Measuring lengths indirectly and by iterating length units,Expressing the length of an object as a whole number of informal length units
+Measurement,Length,Measuring and estimating lengths,Measuring lengths using appropriate tools
+Measurement,Length,Measuring and estimating lengths,Describing how measurements in different units relate to the size of the units chosen
+Measurement,Length,Measuring and estimating lengths,Measuring lengths using different metric units (centimetres and metres)
+Measurement,Length,Measuring and estimating lengths,"Measuring lengths using non-metric units (inches, yards and feet)"
+Measurement,Length,Measuring and estimating lengths,Estimating lengths using different metric units (centimetres and metres)
+Measurement,Length,Measuring and estimating lengths,"Estimating lengths using non-metric units (inches, yards and feet)"
+Measurement,Length,Measuring and estimating lengths,Expressing differences in length (including how much longer/shorter) using standard units
+Measurement,Length,Measuring and estimating lengths,Generating measurement data by making repeated measurements of the same object
+Measurement,Length,Measuring and estimating lengths,Generating measurement data by measuring lengths of several objects
+Measurement,Length,Measuring and estimating lengths,Generating measurement data by measuring lengths using rulers (including fractional lengths)
+Measurement,Length,Measuring and estimating lengths,Representing measurements of length (including half and quarter lengths) by making line plots
+Measurement,Length,Adding and subtracting lengths within 100 units,Using addition to solve word problems involving lengths that are given in the same units
+Measurement,Length,Adding and subtracting lengths within 100 units,Using subtraction to solve word problems involving lengths that are given in the same units
+Measurement,Mass,Measuring and estimating masses,Measuring mass using different metric units (grams and kilograms)
+Measurement,Mass,Measuring and estimating masses,Solving one-step word problems involving addition and/or subtraction of mass
+Measurement,Mass,Measuring and estimating masses,Solving one-step word problems involving multiplication and/or division of mass
+Measurement,Money,Working with money,Finding the total value of a set of coins or bills
+Measurement,Money,Working with money,Expressing a money amount in different ways
+Measurement,Money,Working with money,Solving word problems involving only dollar bills using the $ symbol appropriately
+Measurement,Money,Working with money,Solving word problems involving both dollar bills and coins using the $ and ¢ symbols appropriately
+Measurement,Time,Telling time,Telling time (in hours and half-hours) using analog clocks
+Measurement,Time,Telling time,Telling time (in hours and half-hours) using digital clocks
+Measurement,Time,Telling time,Describing time before/after the hour in different ways
+Measurement,Time,Telling time,Telling time (to the nearest 5 minutes)
+Measurement,Time,Telling time,Telling time (to the nearest minute)
+Measurement,Time,Writing time,Writing time (in hours and half-hours)
+Measurement,Time,Writing time,Writing time (to the nearest 5 minutes)
+Measurement,Time,Writing time,Writing time (to the nearest minute)
+Measurement,Time,Measuring time,Solving word problems involving addition of time
+Measurement,Time,Measuring time,Solving word problems involving subtraction of time (including calculating time intervals)
+Measurement,Time,Measuring time,"Reading, understanding and working with calendars"
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the metric units of length
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the metric units of mass
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the metric units of time
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the metric units of volume
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the non-metric units of length
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the non-metric units of mass
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Knowing relative sizes of the non-metric units of volume
+Measurement,Working with units,Knowing relative sizes of measurement units within one system of units,Representing quantities using diagrams that feature a measurement scale
+Measurement,Working with units,Converting between measurement units within one system of units,Expressing measurements in a larger unit in terms of a smaller unit
+Measurement,Working with units,Converting between measurement units within one system of units,Expressing measurements in a smaller unit in terms of a larger unit
+Measurement,Working with units,Converting between measurement units within one system of units,Generating conversion tables for pairs of units
+Measurement,Working with units,Converting between measurement units within one system of units,Solving multi-step real-world problems involving conversion of units of length
+Measurement,Working with units,Converting between measurement units within one system of units,Solving multi-step real-world problems involving conversion of units of mass
+Measurement,Working with units,Converting between measurement units within one system of units,Solving multi-step real-world problems involving conversion of units of volume
+Measurement,Working with units,Solving word problems involving units and the four basic operations,Solving word problems involving length and the four basic operations
+Measurement,Working with units,Solving word problems involving units and the four basic operations,Solving word problems involving mass and the four basic operations
+Measurement,Working with units,Solving word problems involving units and the four basic operations,Solving word problems involving money and the four basic operations
+Measurement,Working with units,Solving word problems involving units and the four basic operations,Solving word problems involving time and the four basic operations
+Measurement,Working with units,Solving word problems involving units and the four basic operations,Solving word problems involving volume and the four basic operations
+Measurement,Working with units,Solving multi-step problems by reasoning with units,Choosing and interpreting units consistently in formulae
+Measurement,Working with units,Solving multi-step problems by reasoning with units,Defining appropriate quantities for descriptive modelling
+Measurement,Working with units,Solving multi-step problems by reasoning with units,Choosing an appropriate level of accuracy when reporting quantities
+Statistics and probability,Data,Organising and representing data,Asking and answering questions about data points
+Statistics and probability,Data,Organising and representing data,Organising and representing data with up to three categories using tally charts
+Statistics and probability,Data,Organising and representing data,Organising and representing data with more than three categories using tally charts
+Statistics and probability,Data,Organising and representing data,Drawing a picture graph (single-unit scale) with data up to four categories
+Statistics and probability,Data,Organising and representing data,Drawing a scaled picture graph with three or more categories of data
+Statistics and probability,Data,Organising and representing data,Drawing a bar graph (single-unit scale) with data up to four categories
+Statistics and probability,Data,Organising and representing data,Drawing a scaled bar graph with three or more categories of data
+Statistics and probability,Data,Organising and representing data,Representing general measurements (including fractional units) by making line plots
+Statistics and probability,Data,Organising and representing data,Distinguishing between qualitative and quantitative data
+Statistics and probability,Data,Organising and representing data,Representing data using line graphs
+Statistics and probability,Data,Organising and representing data,Representing data using dot plots
+Statistics and probability,Data,Organising and representing data,Representing data using histograms
+Statistics and probability,Data,Organising and representing data,Representing data using box-and-whisker plots
+Statistics and probability,Data,Organising and representing data,Representing data using stem-and-leaf plots
+Statistics and probability,Data,Organising and representing data,Representing data using circle graphs (pie charts)
+Statistics and probability,Data,Organising and representing data,Investigating and describing patterns such as clustering and outliers
+Statistics and probability,Data,Interpreting data,Interpreting data with up to three categories using a picture graph
+Statistics and probability,Data,Interpreting data,Interpreting data with more than three categories using a picture graph
+Statistics and probability,Data,Interpreting data,Interpreting data with up to three categories using a bar graph
+Statistics and probability,Data,Interpreting data,Interpreting data with more than three categories using a bar graph
+Statistics and probability,Data,Interpreting data,"Solving problems using bar graphs (including 'putting together', 'taking apart' and 'comparing')"
+Statistics and probability,Data,Interpreting data,Interpreting data with three or more categories using a scaled picture graph
+Statistics and probability,Data,Interpreting data,Interpreting data with three or more categories using a scaled bar graph
+Statistics and probability,Data,Interpreting data,Solving problems using scaled bar graphs (including 'how many more/less')
+Statistics and probability,Data,Interpreting data,Choosing and interpreting the scale in graphs and data displays
+Statistics and probability,Data,Interpreting data,Reading and analysing misleading graphs
+Statistics and probability,Bivariate data,Determining appropriate data displays,Identifying and choosing appropriate data displays
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Drawing scatter plots
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Interpreting scatter plots
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Knowing that straight lines are used to model relationships in bivariate data
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Fitting a straight line and assessing its fit (informally)
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Applying the fitted straight line to identify relationships and solve problems (including interpreting slopes and intercepts)
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Fitting functions (quadratic or exponential) to data
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Using fitted functions (quadratic or exponential) to solve problems in context
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Finding a line of best fit using concepts related to the equation of a straight line
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Finding a line of best fit using technology
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Assessing the fit of a function by plotting and analysing residuals (informally)
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Calculating (using technology) and interpreting the correlation coefficient of a linear fit
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Distinguishing between correlation and causation
+Statistics and probability,Bivariate data,Understanding and applying scatter plots,Interpolating and extrapolating data using linear fits
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Investigating and describing patterns such as clustering and outliers in scatter plots
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,"Investigating and describing patterns of association (positive or negative, linear or non-linear) in scatter plots"
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Constructing a two-way table on two categorical variables
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Interpreting a two-way table (including patterns of association) on two categorical variables
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Using a two-way table to find and interpret joint relative frequencies
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Using a two-way table to find and interpret marginal relative frequencies
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Using a two-way table to find and interpret conditional relative frequencies
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,Using relative frequencies to describe possible associations
+Statistics and probability,Bivariate data,Identifying and interpreting patterns of association,recognizing possible trends in data
+Statistics and probability,Basic statistics,Understanding statistical variability (qualitative),recognizing a statistical question
+Statistics and probability,Basic statistics,Understanding statistical variability (qualitative),"Understanding that data set has a distribution which can be described by its center, spread and overall shape"
+Statistics and probability,Basic statistics,Understanding statistical variability (qualitative),recognizing that a measure of central tendency summarises all of the values in the data set with a single number
+Statistics and probability,Basic statistics,Understanding statistical variability (qualitative),recognizing that a measure of variation summarises how the values in a data set vary using a single number
+Statistics and probability,Frequency distributions (including plots),Summarising numerical data,Summarising numerical data sets by reporting the number of observations
+Statistics and probability,Frequency distributions (including plots),Summarising numerical data,Summarising numerical data sets by describing the nature of the investigated attribute (including how it was measured)
+Statistics and probability,Frequency distributions (including plots),Describing and understanding distributions,Describing any overall pattern and any striking deviations from the overall pattern with reference to context
+Statistics and probability,Frequency distributions (including plots),Describing and understanding distributions,Relating the choice of measures of central tendency to the shape of the data distribution and the context
+Statistics and probability,Frequency distributions (including plots),Describing and understanding distributions,Relating the choice of measures of variability to the shape of the data distribution and the context
+Statistics and probability,Frequency distributions (including plots),Describing and understanding distributions,Describing the shapes of distributions (including symmetric and skewed)
+Statistics and probability,Frequency distributions (including plots),Describing and understanding distributions,"Comparing two or more distributions in terms of their shapes, centre and spread"
+Statistics and probability,Frequency distributions (including plots),Estimating measures of central tendency,Calculating mean
+Statistics and probability,Frequency distributions (including plots),Estimating measures of central tendency,Calculating median
+Statistics and probability,Frequency distributions (including plots),Estimating measures of central tendency,Calculating mode
+Statistics and probability,Frequency distributions (including plots),Estimating measures of central tendency,Understanding and applying the effects of data transformation (addition and multiplication) on the different measures of central tendency
+Statistics and probability,Frequency distributions (including plots),Estimating measures of variability,Calculating range
+Statistics and probability,Frequency distributions (including plots),Estimating measures of variability,Calculating interquartile range
+Statistics and probability,Frequency distributions (including plots),Estimating measures of variability,Calculating mean absolute deviation
+Statistics and probability,Frequency distributions (including plots),Estimating measures of variability,Calculating standard deviation
+Statistics and probability,Frequency distributions (including plots),Estimating measures of variability,Understanding and applying the effects of data transformation (addition and multiplication) on the different measures of variability
+Statistics and probability,Frequency distributions (including plots),Understanding and applying normal distributions,Using the mean and standard deviation of a data set to fit it to a normal distribution
+Statistics and probability,Frequency distributions (including plots),Understanding and applying normal distributions,Using normal distributions to estimate population percentages
+Statistics and probability,Frequency distributions (including plots),Understanding and applying normal distributions,recognizing that there are data sets for which normalisation cannot be done
+Statistics and probability,Frequency distributions (including plots),Understanding and applying normal distributions,Using tables/technology to estimate areas under the normal curve
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Understanding representative samples and the idea that examining a sample can lead to useful information about the population
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Using data from a random sample to draw inferences about a population
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Generating multiple samples of the same size to gauge variation in predictions
+Statistics and probability,Sampling and population,Estimating differences between populations using samples,Assessing the degree of visual overlap of two numerical data distributions with similar variabilities
+Statistics and probability,Sampling and population,Estimating differences between populations using samples,Estimating the difference between the measures of central tendency of random samples
+Statistics and probability,Sampling and population,Estimating differences between populations using samples,Expressing the difference between the measures of central tendency as a multiple of the measures of variability
+Statistics and probability,Sampling and population,Drawing comparative inferences about two populations using measures of central tendency,Using the measures of central tendency of random samples to draw comparative inferences about two populations
+Statistics and probability,Sampling and population,Drawing comparative inferences about two populations using measures of variability,Using the measures of variability of random samples to draw comparative inferences about two populations
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Deciding if a specified model is consistent with results from a data-generating process
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,"recognizing the purposes of and differences among sample surveys, experiments and observational studies"
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,"Explaining how randomisation relates to sample surveys, experiments and observational studies"
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Using data from a sample survey to estimate a population mean or proportion
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Developing a margin of error through the use of simulation models
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Using data from a randomised experiment to compare two treatments
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Using simulations to decide if the differences between experimentally obtained parameters are significant
+Statistics and probability,Sampling and population,Using random sampling to draw inferences,Evaluating reports based on data
+Statistics and probability,Probability,Developing an intuitive understanding of probability,Understanding that the probability of a chance event lies between zero and one
+Statistics and probability,Probability,Developing an intuitive understanding of probability,Distinguishing between unlikely (probability closer to zero) and likely events (probability closer to one)
+Statistics and probability,Probability,Understanding and applying experimental probability,Identifying outcomes in the sample space for simple events
+Statistics and probability,Probability,Understanding and applying experimental probability,Estimating the probability of a chance event by collecting data (including observing long-run relative frequencies)
+Statistics and probability,Probability,Understanding and applying theoretical probability,Comparing experimental probability and theoretical probability
+Statistics and probability,Probability,Understanding and applying theoretical probability,Calculating theoretical probabilities for simple events
+Statistics and probability,Probability,Understanding and applying theoretical probability,Calculating theoretical probabilities in the context of area models
+Statistics and probability,Probability,Understanding and working with different types of events,Describing events as subsets of a sample space using characteristics of the outcomes
+Statistics and probability,Probability,Understanding and working with different types of events,"Describing events as unions, intersections or complements of other events"
+Statistics and probability,Probability,Understanding and working with different types of events,recognizing and explaining the concept of independent events in daily language and situations
+Statistics and probability,Probability,Understanding and working with different types of events,Understanding the mathematical conditions necessary for two events to be independent
+Statistics and probability,Probability,Understanding and working with different types of events,Using a two-way table as a sample space to decide if events are independent 
+Statistics and probability,Probability,Developing and using probability models,Developing and using uniform probability models (equally likely outcomes)
+Statistics and probability,Probability,Developing and using probability models,Developing and using non-uniform probability models by observing frequencies in data
+Statistics and probability,Probability,Developing and using probability models,Finding the expected payoff for a game of chance
+Statistics and probability,Probability,Developing and using probability models,Evaluating and comparing strategies based on expected values
+Statistics and probability,Probability,Developing and using probability models,Using probabilities to make fair decisions
+Statistics and probability,Probability,Developing and using probability models,Analysing strategies and decisions using probability concepts
+Statistics and probability,Probability,Estimating probabilities of compound events,Extending the understanding of probability of simple events to reason about the probability of compound events
+Statistics and probability,Probability,Estimating probabilities of compound events,Identifying outcomes in the sample space for compound events
+Statistics and probability,Probability,Estimating probabilities of compound events,Representing sample spaces for compound events using lists or tables
+Statistics and probability,Probability,Estimating probabilities of compound events,Representing sample spaces for compound events using tree diagrams
+Statistics and probability,Probability,Estimating probabilities of compound events,Designing and using a simulation to generate frequencies for compound events
+Statistics and probability,Probability,Estimating probabilities of compound events,Applying and interpreting the addition rule of probability i.e. P(A or B) = P(A) + P(B) – P(A and B)
+Statistics and probability,Probability,Estimating probabilities of compound events,Applying and interpreting the multiplication rule of probability i.e. P(A and B) = P(A)P(B|A) = P(B)P(A|B)
+Statistics and probability,Probability,Estimating probabilities of compound events,Applying multiple rules of probability to solve real-life problems
+Statistics and probability,Probability,Estimating probabilities of compound events,Counting and finding permutations (including using the formula)
+Statistics and probability,Probability,Estimating probabilities of compound events,Using permutations to compute probabilities of compound events and solve problems
+Statistics and probability,Probability,Estimating probabilities of compound events,Counting and finding combinations (including using the formula)
+Statistics and probability,Probability,Estimating probabilities of compound events,Using combinations to compute probabilities of compound events and solve problems
+Statistics and probability,Probability,Estimating probabilities of compound events,Using a mix of permutations and combinations to solve problems related to probability
+Statistics and probability,Probability,Understanding and applying conditional probability,Defining conditional probability
+Statistics and probability,Probability,Understanding and applying conditional probability,recognizing and explaining the concept of conditional probability in daily language and situations
+Statistics and probability,Probability,Understanding and applying conditional probability,Using a two-way table as a sample space to approximate conditional probabilities
+Statistics and probability,Probability,Understanding and applying conditional probability,Finding the conditional probability of one event given another event
+Statistics and probability,Probability,Understanding and applying conditional probability,Interpreting the independence of two events in terms of conditional probability
+Statistics and probability,Probability,Understanding and using probability distributions,Defining a random variable for a quantity of interest
+Statistics and probability,Probability,Understanding and using probability distributions,Graphing probability distributions
+Statistics and probability,Probability,Understanding and using probability distributions,Calculating and interpreting the expected value of a random variable
+Statistics and probability,Probability,Understanding and using probability distributions,Developing a probability distribution for a random variable for which theoretical probabilities can be calculated
+Statistics and probability,Probability,Understanding and using probability distributions,Developing a probability distribution for a random variable for which experimental probabilities can be calculated (including binomial distribution)
+Reasoning and logic,General reasoning,Understanding and applying different types of reasoning,Using inductive reasoning
+Reasoning and logic,General reasoning,Understanding and applying different types of reasoning,Making and testing conjectures (including counterexamples)
+Reasoning and logic,General reasoning,Understanding and applying different types of reasoning,Using the law of detachment (deductive reasoning)
+Reasoning and logic,General reasoning,Understanding and applying different types of reasoning,Using the law of syllogism (deductive reasoning)
+Reasoning and logic,General reasoning,Understanding and applying different types of reasoning,Comparing inductive and deductive reasoning
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Writing a conditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Negating a conditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Writing the converse of a conditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Writing the inverse of a conditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Writing the contrapositive of a conditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Writing a biconditional statement
+Reasoning and logic,Verbal reasoning,Understanding conditional statements,Constructing truth tables based on different statements
+Reasoning and logic,Geometric reasoning,"Reasoning with points, lines and planes","Identifying postulates involving points, lines and planes"
+Reasoning and logic,Geometric reasoning,"Reasoning with points, lines and planes","Sketching and interpreting diagrams involving points, lines and planes"
+Reasoning and logic,Geometric reasoning,Using properties of equality with segments and angles,Using the reflexive property of equality
+Reasoning and logic,Geometric reasoning,Using properties of equality with segments and angles,Using the symmetric property of equality
+Reasoning and logic,Geometric reasoning,Using properties of equality with segments and angles,Using the transitive property of equality
+Reasoning and logic,Geometric reasoning,Using properties of equality with segments and angles,Using a mix of properties of equality to solve different geometric problems
+Reasoning and logic,Geometric reasoning,Writing proofs,Writing a two-column proof to solve different geometric problems
+Reasoning and logic,Geometric reasoning,Writing proofs,Writing a proof using flowcharts to solve different geometric problems
+Reasoning and logic,Geometric reasoning,Writing proofs,Writing a proof using paragraphs to solve different geometric problems
+Reasoning and logic,Geometric reasoning,Writing proofs,Writing an indirect proof (proof by contradiction)
+Reasoning and logic,Algebraic reasoning,Justifying equalities and equations using properties of operations,"Using the addition, subtraction, multiplication and/or division properties of equality"
+Reasoning and logic,Algebraic reasoning,Justifying equalities and equations using properties of operations,Using the substitution property of equality
+Reasoning and logic,Algebraic reasoning,Justifying equalities and equations using properties of operations,Justifying steps when solving an equation
