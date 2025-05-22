@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Page Extractor</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .drop-zone {
+            border: 2px dashed #007bff;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: #007bff;
+        }
+        .drop-zone.dragover {
+            background-color: #e9f5ff;
+        }
+        .drop-zone input[type="file"] {
+            display: none; 
+        }
+        #image-output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: white;
+            min-height: 350px; /* Adjusted for horizontal scroll visibility */
+            display: flex; /* Changed from flex-wrap: wrap */
+            flex-direction: row; /* Explicitly row for clarity */
+            overflow-x: auto;  /* Enable horizontal scrolling */
+            overflow-y: hidden; /* Hide vertical scrollbar if content fits */
+            gap: 10px;
+            align-items: flex-start; /* Align items to the top */
+        }
+        #image-output .page-container {
+            border: 1px solid #eee;
+            padding: 10px;
+            text-align: center; /* Center page number and image */
+            flex-shrink: 0; /* Prevent images from shrinking to fit */
+            width: auto; /* Let width be determined by content or max-width of image */
+        }
+        #image-output img {
+            max-width: 300px; /* Max width for each image in scroll */
+            height: 300px;   /* Fixed height for consistency in a row */
+            border: 1px solid #ddd;
+            object-fit: contain;
+            display: block; /* To allow margin auto for centering if needed */
+            margin-bottom: 5px; /* Space between image and page number */
+        }
+        /* For larger screens, make images a bit smaller to fit more */
+        @media (min-width: 768px) {
+            #image-output img {
+                max-width: 300px; 
+            }
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 999;
+            overflow-y: auto;
+        }
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 1000px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .close-button {
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close-button:hover {
+            color: #ff0000;
+        }
+        .school-header {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            border-left: 5px solid #0d47a1;
+        }
+        .school-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-right: 20px;
+            border-radius: 4px;
+        }
+        .school-header h2 {
+            margin: 0 0 8px 0;
+            color: #0d47a1;
+        }
+        .school-header p {
+            margin: 0;
+            color: #555;
+            font-size: 1rem;
+        }
+        
+        /* Tree View Styles */
+        .tree-view {
+            margin-top: 20px;
+        }
+        .tree-node {
+            margin-bottom: 5px;
+        }
+        .tree-node details {
+            margin-left: 20px;
+        }
+        .tree-node summary {
+            cursor: pointer;
+            padding: 5px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .tree-node ul {
+            margin-top: 5px;
+            padding-left: 25px;
+        }
+        .tree-node li {
+            margin-bottom: 5px;
+        }
+        .subject-node {
+            background-color: #e3f2fd;
+            padding: 8px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1976d2;
+        }
+        .subject-node > details > summary {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .unit-node {
+            background-color: #f1f8e9;
+            padding: 6px;
+            border-radius: 4px;
+            margin: 5px 0;
+            border-left: 3px solid #7cb342;
+        }
+        .topic-container {
+            margin-left: 20px;
+        }
+        .topic-node {
+            background-color: #fff9c4;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin: 8px 0;
+            border-left: 2px solid #fbc02d;
+        }
+        .topic-node summary {
+            font-weight: 600;
+            color: #5d4037;
+        }
+        .skill-list {
+            background-color: #f5f5f5;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-top: 6px;
+            list-style-type: circle;
+        }
+        .skill-list li {
+            padding: 3px 0;
+            color: #555;
+            font-size: 0.95em;
+        }
+        
+        /* Action button container */
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        /* Message Styles */
+        .loading-message {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            border-left: 4px solid #66bb6a;
+            margin: 20px 0;
+            font-size: 1.1em;
+        }
+        .error-message {
+            background-color: #ffebee;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            border-left: 4px solid #e53935;
+            margin: 20px 0;
+        }
+        .error-message h3 {
+            color: #c62828;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Page Extractor</h1>
+        
+        <div class="drop-zone" id="dropZone">
+            Drag & drop a PDF file here, or click to select file
+            <input type="file" id="pdfFile" accept=".pdf">
+        </div>
+
+        <button id="uploadButton">Extract Pages as Images</button>
+
+        <div class="action-buttons">
+            <button id="createCurriculumButton" disabled>Create Curriculum</button>
+        </div>
+
+        <h2>Page Images:</h2>
+        <div id="image-output">
+            Images will appear here...
+        </div>
+
+        <hr>
+        <h2>AI Analysis:</h2>
+        <div id="ai-analysis-output">
+            AI analysis will appear here...
+        </div>
+    </div>
+
+    <!-- Curriculum Modal -->
+    <div id="curriculumModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <div id="curriculumContent">
+                <!-- Curriculum content will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const pdfFileInput = document.getElementById('pdfFile');
+        const uploadButton = document.getElementById('uploadButton');
+        const imageOutput = document.getElementById('image-output');
+        const aiAnalysisOutput = document.getElementById('ai-analysis-output');
+        const createCurriculumButton = document.getElementById('createCurriculumButton');
+        const curriculumModal = document.getElementById('curriculumModal');
+        const closeModal = document.getElementById('closeModal');
+        const curriculumContent = document.getElementById('curriculumContent');
+
+        let selectedFile = null;
+        let extractedTextArray = []; // Store extracted text from all pages
+
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.add('dragover'), false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.remove('dragover'), false);
+        });
+
+        dropZone.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            if (files.length > 0) {
+                if (files[0].type === 'application/pdf') {
+                    selectedFile = files[0];
+                    pdfFileInput.files = files;
+                    dropZone.textContent = `Selected file: ${selectedFile.name}`;
+                } else {
+                    alert('Please drop a PDF file.');
+                    selectedFile = null;
+                    pdfFileInput.value = null;
+                    dropZone.textContent = 'Drag & drop a PDF file here, or click to select file';
+                }
+            }
+        }
+        
+        dropZone.addEventListener('click', () => {
+            pdfFileInput.click();
+        });
+
+        pdfFileInput.addEventListener('change', function() {
+            if (this.files.length > 0) {
+                 if (this.files[0].type === 'application/pdf') {
+                    selectedFile = this.files[0];
+                    dropZone.textContent = `Selected file: ${selectedFile.name}`;
+                } else {
+                    alert('Please select a PDF file.');
+                    this.value = null;
+                    selectedFile = null;
+                    dropZone.textContent = 'Drag & drop a PDF file here, or click to select file';
+                }
+            }
+        });
+
+        uploadButton.addEventListener('click', async () => {
+            if (!selectedFile) {
+                alert('Please select a PDF file first.');
+                return;
+            }
+
+            createCurriculumButton.disabled = true; // Disable the create curriculum button during upload
+            imageOutput.innerHTML = 'Processing PDF and sending to AI...'; 
+            aiAnalysisOutput.innerHTML = 'Waiting for AI responses...';
+            extractedTextArray = []; // Reset extracted text array
+            
+            const formData = new FormData();
+            formData.append('pdfFile', selectedFile);
+
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                imageOutput.innerHTML = '';
+                aiAnalysisOutput.innerHTML = '';
+
+                if (response.ok) {
+                    const result = await response.json();
+                    if (result.pageImages && result.pageImages.length > 0) {
+                        result.pageImages.forEach((base64Image, index) => {
+                            const pageContainer = document.createElement('div');
+                            pageContainer.classList.add('page-container');
+
+                            const pageTitle = document.createElement('p');
+                            pageTitle.textContent = `Page ${index + 1}`;
+                            pageContainer.appendChild(pageTitle);
+
+                            const img = document.createElement('img');
+                            img.src = `data:image/png;base64,${base64Image}`;
+                            pageContainer.appendChild(img);
+                            imageOutput.appendChild(pageContainer);
+                        });
+                    } else if (result.pageImages && result.pageImages.length === 0) {
+                        imageOutput.innerHTML = '<p>No pages found or extracted from the PDF.</p>';
+                    } else {
+                        imageOutput.innerHTML = '<p>No page images extracted or an issue occurred.</p>';
+                    }
+
+                    if (result.aiAnalysis && result.aiAnalysis.length > 0) {
+                        result.aiAnalysis.forEach(analysis => {
+                            const analysisDiv = document.createElement('div');
+                            analysisDiv.style.marginBottom = '15px';
+                            analysisDiv.innerHTML = `<h4>Page ${analysis.page} Analysis:</h4>`;
+                            if (analysis.description) {
+                                const p = document.createElement('p');
+                                p.style.whiteSpace = 'pre-wrap';
+                                p.textContent = analysis.description;
+                                analysisDiv.appendChild(p);
+                                
+                                // Store the extracted text
+                                extractedTextArray.push(analysis.description);
+                            } else if (analysis.error) {
+                                const pError = document.createElement('p');
+                                pError.style.color = 'red';
+                                pError.textContent = `Error: ${analysis.error}${analysis.details ? ' (' + analysis.details + ')' : ''}`;
+                                analysisDiv.appendChild(pError);
+                            }
+                            aiAnalysisOutput.appendChild(analysisDiv);
+                        });
+                        
+                        // Enable the Create Curriculum button if we have extracted text
+                        if (extractedTextArray.length > 0) {
+                            createCurriculumButton.disabled = false;
+                        }
+                    } else {
+                        aiAnalysisOutput.innerHTML = '<p>No AI analysis available.</p>';
+                    }
+
+                } else {
+                    const errorResult = await response.json();
+                    const errorMessage = `Error: ${errorResult.error || response.statusText}${errorResult.details ? '<br><pre>' + errorResult.details + '</pre>' : ''}`;
+                    imageOutput.innerHTML = '';
+                    aiAnalysisOutput.innerHTML = errorMessage.replace(/<pre>/g, '<pre style="white-space: pre-wrap; word-break: break-all;">');
+                }
+            } catch (error) {
+                console.error('Error uploading file:', error);
+                imageOutput.innerHTML = '';
+                aiAnalysisOutput.innerHTML = 'Error uploading file. See console for details.';
+            }
+        });
+
+        // Create Curriculum button click handler
+        createCurriculumButton.addEventListener('click', async () => {
+            if (extractedTextArray.length === 0) {
+                alert('No extracted text available. Please upload and process a PDF first.');
+                return;
+            }
+
+            createCurriculumButton.disabled = true;
+            createCurriculumButton.textContent = 'Creating Curriculum...';
+            
+            // Show loading state in the modal
+            curriculumContent.innerHTML = '<div class="loading-message">Processing curriculum data... This may take a minute or two. Please wait...</div>';
+            curriculumModal.style.display = 'block';
+
+            try {
+                // Step 1: First clean the text
+                const cleanResponse = await fetch('/api/clean-text', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ extractedText: extractedTextArray })
+                });
+
+                if (!cleanResponse.ok) {
+                    const cleanError = await cleanResponse.json();
+                    throw new Error(`Failed to clean text: ${cleanError.error || 'Unknown error'}`);
+                }
+
+                const cleanData = await cleanResponse.json();
+                
+                // Set a progress indicator
+                curriculumContent.innerHTML = '<div class="loading-message">Cleaned text successfully. Now generating curriculum structure...</div>';
+                
+                // Step 2: Now create the curriculum structure with cleaned text
+                const structureResponse = await fetch('/api/create-curriculum', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ cleanedText: cleanData.cleanedText })
+                });
+
+                if (!structureResponse.ok) {
+                    const structureError = await structureResponse.json();
+                    throw new Error(`Failed to create structure: ${structureError.error || 'Unknown error'}`);
+                }
+
+                const curriculumData = await structureResponse.json();
+                
+                // Display the curriculum structure
+                displayCurriculum(curriculumData);
+            } catch (error) {
+                console.error('Error creating curriculum:', error);
+                curriculumContent.innerHTML = `<div class="error-message">
+                    <h3>Error creating curriculum</h3>
+                    <p>${error.message}</p>
+                    <p>Please try again or upload a different PDF.</p>
+                </div>`;
+            } finally {
+                createCurriculumButton.disabled = false;
+                createCurriculumButton.textContent = 'Create Curriculum';
+            }
+        });
+
+        // Function to display the curriculum in a tree structure
+        function displayCurriculum(data) {
+            // Clear previous content
+            curriculumContent.innerHTML = '';
+
+            // Extract metadata and curriculum tree
+            const metadata = data.metadata || {};
+            
+            // Find the first subject (there should be only one at the top level)
+            const curriculum = data.curriculum || {};
+            const subjects = Object.keys(curriculum);
+            
+            if (subjects.length === 0) {
+                curriculumContent.innerHTML = '<p>No curriculum data available</p>';
+                return;
+            }
+            
+            // Get the first subject
+            const subjectName = subjects[0];
+            const subjectData = curriculum[subjectName];
+            
+            // Get the school data under the subject
+            const schoolNames = Object.keys(subjectData);
+            if (schoolNames.length === 0) {
+                curriculumContent.innerHTML = '<p>No school data available</p>';
+                return;
+            }
+            
+            // Use first school found in the structure
+            const schoolName = schoolNames[0];
+            const schoolData = subjectData[schoolName];
+
+            // Create school header
+            const schoolHeader = document.createElement('div');
+            schoolHeader.className = 'school-header';
+            
+            // School logo - use metadata or fallback to the structure
+            const logoUrl = metadata.schoolLogo || `https://logo.clearbit.com/${schoolName.toLowerCase().replace(/\s+/g, '')}.edu`;
+            const schoolLogo = document.createElement('img');
+            schoolLogo.src = logoUrl;
+            schoolLogo.alt = `${schoolName || metadata.schoolName || 'School'} Logo`;
+            schoolLogo.className = 'school-logo';
+            schoolLogo.onerror = function() {
+                this.src = 'https://via.placeholder.com/150?text=School+Logo';
+            };
+            
+            // School name and state
+            const schoolInfo = document.createElement('div');
+            schoolInfo.innerHTML = `
+                <h2>${schoolName || metadata.schoolName || 'Unknown School'}</h2>
+                <p>${metadata.schoolState || 'Unknown Location'}</p>
+                <p><strong>Subject:</strong> ${subjectName}</p>
+            `;
+            
+            schoolHeader.appendChild(schoolLogo);
+            schoolHeader.appendChild(schoolInfo);
+            curriculumContent.appendChild(schoolHeader);
+            
+            // Create tree structure for curriculum
+            const treeView = document.createElement('div');
+            treeView.className = 'tree-view';
+
+            // Get all grades
+            const gradeNames = Object.keys(schoolData);
+            if (gradeNames.length === 0) {
+                treeView.innerHTML = '<p>No grade data available</p>';
+                curriculumContent.appendChild(treeView);
+                return;
+            }
+            
+            // Iterate through grades
+            gradeNames.forEach(gradeName => {
+                const gradeData = schoolData[gradeName];
+                
+                const gradeNode = document.createElement('div');
+                gradeNode.className = 'tree-node subject-node'; // Reusing subject-node class for grade
+                
+                const gradeDetails = document.createElement('details');
+                gradeDetails.open = true; // Open by default
+                
+                const gradeSummary = document.createElement('summary');
+                gradeSummary.textContent = gradeName;
+                
+                gradeDetails.appendChild(gradeSummary);
+                
+                // Get units for this grade
+                const unitNames = Object.keys(gradeData);
+                if (unitNames.length > 0) {
+                    // Iterate through units
+                    unitNames.forEach(unitName => {
+                        if (unitName === 'Standards') return; // Skip the Standards array
+                        
+                        const unitData = gradeData[unitName];
+                        
+                        const unitNode = document.createElement('div');
+                        unitNode.className = 'tree-node unit-node';
+                        
+                        const unitDetails = document.createElement('details');
+                        unitDetails.open = true; // Open by default
+                        
+                        const unitSummary = document.createElement('summary');
+                        unitSummary.textContent = unitName;
+                        
+                        unitDetails.appendChild(unitSummary);
+                        
+                        // Get topics for this unit
+                        const topicNames = Object.keys(unitData).filter(key => key !== 'Standards');
+                        if (topicNames.length > 0) {
+                            const topicList = document.createElement('div');
+                            topicList.className = 'topic-container';
+                            
+                            // Iterate through topics
+                            topicNames.forEach(topicName => {
+                                const topicData = unitData[topicName];
+                                
+                                const topicNode = document.createElement('div');
+                                topicNode.className = 'topic-node';
+                                
+                                const topicDetails = document.createElement('details');
+                                
+                                const topicSummary = document.createElement('summary');
+                                topicSummary.textContent = topicName;
+                                topicDetails.appendChild(topicSummary);
+                                
+                                // Get skills for this topic
+                                const skillNames = Object.keys(topicData).filter(key => 
+                                    key !== 'Standards' && key !== 'TopicResources');
+                                
+                                if (skillNames.length > 0) {
+                                    const skillList = document.createElement('ul');
+                                    skillList.className = 'skill-list';
+                                    
+                                    // Iterate through skills
+                                    skillNames.forEach(skillName => {
+                                        const skillItem = document.createElement('li');
+                                        skillItem.textContent = skillName;
+                                        skillList.appendChild(skillItem);
+                                    });
+                                    
+                                    topicDetails.appendChild(skillList);
+                                }
+                                
+                                topicNode.appendChild(topicDetails);
+                                topicList.appendChild(topicNode);
+                            });
+                            
+                            unitDetails.appendChild(topicList);
+                        }
+                        
+                        unitNode.appendChild(unitDetails);
+                        gradeDetails.appendChild(unitNode);
+                    });
+                }
+                
+                gradeNode.appendChild(gradeDetails);
+                treeView.appendChild(gradeNode);
+            });
+            
+            curriculumContent.appendChild(treeView);
+        }
+
+        // Close modal when the close button is clicked
+        closeModal.addEventListener('click', () => {
+            curriculumModal.style.display = 'none';
+        });
+
+        // Close modal when clicking outside the modal content
+        window.addEventListener('click', (event) => {
+            if (event.target === curriculumModal) {
+                curriculumModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html> 
